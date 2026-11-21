@@ -6,3 +6,8 @@ node_modules/
 __pycache__/
 *.pyc
 autopilot-work/
+!/.agents/
+/.agents/*
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/dao-dien-tap

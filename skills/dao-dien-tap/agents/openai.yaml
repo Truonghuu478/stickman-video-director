@@ -1,0 +1,4 @@
+interface:
+  display_name: "Đạo diễn một tập"
+  short_description: "Phim đời thường không lời, từ storyboard đến Google Flow"
+  default_prompt: "Dùng $dao-dien-tap để tự chọn một chuyện đời thường mới và soạn trọn gói quay cho một tập."
