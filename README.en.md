@@ -4,118 +4,167 @@
 
 # 🎬 Stickman Video Director
 
-**Turn any script into viral, multi-style animated stickman videos for Faceless YouTube Channels.**
+**Scale your faceless channel with automated stickman animations.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Start with a topic, an article, or a script. Automatically orchestrate visuals, voiceovers, captions, and sound effects into a production-ready stickman video.
+**Send your AI agent one message — get back a finished stickman video.**<br>
+Script, voiceover, captions & sound · 15 battle-tested styles · For Claude Code, Codex & more
 
-**⚡ 100% Free & Open-Source. No camera, no $50/mo subscriptions, and ready in minutes, not days.**
+💬 One message → ✅ Approve script & preview → 🎬 Finished video
 
-Continually updated visual styles for **science explainers, dark psychology, tech parables, viral lore, and storytelling channels.**
+**No After Effects. No $50/mo SaaS tax. Ship daily without burnout.**
+
+[Quickstart](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Community](#community)
+
+⭐ *Star the project to catch the next style drop and feature unlocks.*
 
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>Classic Black & White</strong><br>
+<b>A1-</b><strong>Classic Black & White</strong><br>
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Classic black-and-white stickman animation: white lines on black for dynamic explainers" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Modern Pop</strong><br>
-<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Modern pop stickman animation: red-beanie character with tech lighting" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>Prehistoric Cave</strong><br>
-<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Prehistoric cave stickman animation: short cave stories with a twist" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>Cozy Storytelling</strong><br>
-<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Cozy stickman storytelling: colorful everyday scenes and relatable moments" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>Historical Cartoon</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman cartoon: a samurai story in Edo Japan" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>Minimal Line Art</strong><br>
+<b>B1-</b><strong>Minimal Line Art</strong><br>
 <a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Minimal hand-drawn stickman video: expressive characters, key text, and subtle animation" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Amber Noir</strong><br>
-<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Amber Noir stickman animation: an orange-hoodie character in a warm-lit city with deep shadows" width="90%"></a>
+<b>A2-</b><strong>Modern Pop</strong><br>
+<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Modern pop stickman animation: red-beanie character with tech lighting" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Colorful Hand-Drawn</strong><br>
+<b>B2-</b><strong>Colorful Hand-Drawn</strong><br>
 <a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="Colorful hand-drawn stickman video: a quiet bedroom and a thought drifting along a river" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>Retro TV</strong><br>
+<b>A3-</b><strong>Prehistoric Cave</strong><br>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="Prehistoric cave stickman animation: short cave stories with a twist" width="90%"></a>
+</td>
+<!-- b3:hero:start -->
+<td width="50%" align="center">
+<b>B3-</b><strong>Retro TV</strong><br>
 <a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="retro TV-style fictional 3 AM television mystery with rounded white characters" width="90%"></a>
 </td>
+<!-- b3:hero:end -->
+</tr>
+<tr>
 <td width="50%" align="center">
-<strong>Survival Thriller</strong><br>
+<b>A4-</b><strong>Cozy Storytelling</strong><br>
+<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Cozy stickman storytelling: colorful everyday scenes and relatable moments" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<b>B4-</b><strong>Survival Thriller</strong><br>
 <a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · Survival Thriller" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:end -->
-<!-- b5:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>Character Explainer</strong><br>
+<b>A5-</b><strong>Historical Cartoon</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Historical stickman cartoon: a samurai story in Edo Japan" width="90%"></a>
+</td>
+<!-- b5:hero:start -->
+<td width="50%" align="center">
+<b>B5-</b><strong>Avatar Explainer</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 explainer about asking for help, with a distinctive presenter and expressive stickmen" width="90%"></a>
+</td>
+<!-- b5:hero:end -->
+</tr>
+<tr>
+<td width="50%" align="center">
+<b>A6-</b><strong>Amber Noir</strong><br>
+<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Amber Noir stickman animation: an orange-hoodie character in a warm-lit city with deep shadows" width="90%"></a>
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<b>B6-</b><strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
-<!-- b5:hero:end -->
+<tr>
+<!-- a7:hero:start -->
+<td width="50%" align="center">
+<b>A7-</b><strong>Rubber Hose Animation</strong><br>
+<a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation" width="90%"></a>
+</td>
+<!-- a7:hero:end -->
+<!-- b7:hero:start -->
+<td width="50%" align="center">
+<strong>Pixel Theater</strong><br>
+<a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Pixel Theater" width="90%"></a>
+</td>
+<!-- b7:hero:end -->
+</tr>
+<tr>
+<!-- a8:hero:start -->
+<td width="50%" align="center">
+<b>A8-</b><strong>Studio Ghibli</strong><br>
+<a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Studio Ghibli Style" width="90%"></a>
+</td>
+<!-- a8:hero:end -->
+<td width="50%" align="center"></td>
+</tr>
 </table>
-
-<div align="center">
-
-**12 visual styles · Tested examples · Free and open source**
-
-⭐ **Star the project to catch the next style drop and feature unlocks.**
-
-[Get started](#quick-start) · [Styles & Demos](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Community](#community)
-
-</div>
 
 <a id="creation-modes"></a>
 
-## 🎬 Two ways to make your video
+## 🎬 Two video creation modes: Model Engine vs Code Engine
 
-**Want control over every shot? Choose A · Director Mode. Want a finished video without assembling scenes yourself? Choose B · Autopilot Mode.** One project, two workflows.
+**One stickman director, two ways to create your visuals**: A uses video models to generate continuous shots; B uses code to animate layered assets. With the right tools, an AI agent can take either approach through to a finished video, following the selected style’s specifications.
 
-|  | <div align="center">A · Director Mode</div> | <div align="center">B · Autopilot Mode</div> |
-|:---:|:---|:---|
-| **Approach** | **You control production; AI plans the shots.** Get storyboards and prompts, then generate clips and edit them yourself. | **Give it a topic or a brief; get a finished video.** Automate illustrations, voiceover, captions, subtle animation, and video assembly. |
-| **Length** | **Short-first**, typically 30 seconds–3 minutes. Longer videos can be built scene by scene. | **Long-form-first**, especially narrated videos of **10 minutes or more**. Also works for shorts and episodic stories. |
-| **Tools** | Plan with a Skill-compatible AI assistant, generate clips in your preferred video generator (Google Flow, Runway, Luma, Kling, etc.), then assemble in CapCut or Premiere. | Run in **Codex, Claude Code**, or another AI coding agent that can read and write files, call tools, and execute commands to connect generation with local rendering. |
-| **Visuals** | **Generated animated clips**, with character movement, camera direction, and interactions. | **Illustrated scenes with local animation**: expressions, character reactions, and prop movement support the narration alongside cuts, pans, and zooms. Camera movement or text entrances alone do not count as picture animation. |
-| **Output** | A director's treatment, storyboards, scene-by-scene video prompts, and sound design. | **A complete video file with voiceover, captions, and subtle animation.** |
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle"></th>
+<th align="center" valign="middle"><div align="center">A · Model Engine</div></th>
+<th align="center" valign="middle"><div align="center">B · Code Engine</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"><strong>Concept</strong></td>
+<td align="left" valign="middle">Feeds prompts and storyboards into video generation models to render fluid video clips directly.</td>
+<td align="left" valign="middle">Generates layered visual assets, then writes and executes code to animate, compose, and render locally.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Features</strong></td>
+<td align="left" valign="middle">Fluid natural motion and cinematic lighting; vivid visuals with rich cinematic dynamics.</td>
+<td align="left" valign="middle">Stable character consistency with reusable assets; precise timeline pacing, layout control, and easy local fine-tuning.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Best for</strong></td>
+<td align="left" valign="middle">Creators with access to video generation resources (e.g., Google Flow, affordable APIs, or self-hosted local models), focusing on visually striking short-form content.</td>
+<td align="left" valign="middle">Users with active Codex or Claude Code subscriptions looking to put surplus coding quota to work—without paying extra for expensive video model credits.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Workflow</strong></td>
+<td align="left" valign="middle">Confirm script and style to get scene prompts for manual generation; or let your agent operate a built-in browser to generate clips, stitch scenes, and handle captions &amp; audio.</td>
+<td align="left" valign="middle">Confirm the video script and a 20s sample for the chosen style, then let your agent automatically handle all asset preparation, code authoring, animation execution, captions, audio, and local rendering.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Output</strong></td>
+<td align="left" valign="middle">Storyboard script + scene prompts + (full video file)</td>
+<td align="left" valign="middle">Layered asset library (characters/scenes/props) + full video file</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Cost</strong></td>
+<td align="left" valign="middle">Consumes video model generation credits/points; longer videos scale significantly in cost and re-roll overhead.</td>
+<td align="left" valign="middle">Zero video model credits needed; renders locally using your existing agent quota and basic image/TTS tools.</td>
+</tr>
+</tbody>
+</table>
 
-Both workflows can start with a raw topic, a web link, or a full script. Customize your aspect ratio (9:16, 16:9, 1:1), narration language, and voiceover freely. The lengths above are recommendations, not hard limits.
+Start with an idea, an article, a web link, or a complete script. Both modes support short videos and longer content. Choose `16:9` landscape or `9:16` portrait for your publishing platform, and configure captions, voiceover, background music, and sound effects to suit your needs and the selected style.
 
-💡 **Quick Setup Note**:
-
-- **Director Mode** works anywhere in standard conversational AI windows.
-- **Autopilot Mode** runs inside AI coding agents with file/terminal access (like **Claude Code, OpenAI Codex, or Cursor**) to automatically handle end-to-end rendering and file delivery.
+Still deciding on a style? Below, you’ll find detailed descriptions, suggested topics, and more sample videos for each style.
 
 <!-- project-sponsor:start -->
 <a id="project-sponsor"></a>
@@ -143,77 +192,80 @@ Both workflows can start with a raw topic, a web link, or a full script. Customi
 
 ## 🧭 Get started
 
-**For results closest to the showcase, I recommend starting with Codex.** I use Codex to create and test my showcase examples for this project.
+<strong>For results as close as possible to the sample videos, we recommend AI tools with strong coding capabilities, such as Codex or Claude Code.</strong>
 
-You can also install the Skill in Claude Code, Cursor, Antigravity, or other agents with file and terminal access. However, differences in models, tool configuration, and execution can lead to different results.
+You can also use this skill with other agents that can read and write files and run commands. Results may vary with the model’s capabilities, tool setup, and execution approach.
 
-Send the following to your AI assistant:
+### Step 1: Install the skill
+
+On first use, your agent will check the required setup and help you install or configure anything missing. Send the following to your AI agent:
 
 ```text
-Install this Skill for me:
+Help me install this skill:
 https://github.com/kaomei/stickman-video-director
 
-Once installed, read the installed SKILL.md right away.
-Explain what each mode produces, the tools it needs, and the workflow
-in plain language, with examples I can copy.
-Based on what I want to make, tell me what is missing and exactly what to do next.
+After installation, read SKILL.md and tell me you’re ready.
 ```
 
-Installation timed out? See [installation troubleshooting](skills/directing-stickman-videos/references/installation-troubleshooting.md) for macOS/Linux and Windows.
+If you prefer the terminal or the installation times out, you can refer to the [manual installation guide](skills/directing-stickman-videos/references/installation-troubleshooting.md).
+
+### Step 2: Choose a style and mode, then start with a prompt
+
+Choose a style you like from [Model Engine (A)](#a-styles) or [Code Engine (B)](#b-styles), then copy the corresponding prompt below, adapt it to your needs, and send it to your AI agent:
 
 <a id="director-start"></a>
 
-### A · Director Mode: scene-by-scene video prompts
-
-After installation, send this to your AI assistant and replace the placeholder with your topic:
+### A · Model Engine
 
 ```text
-Use Director Mode / mode A to turn the following topic, copy, or brief
-into a stickman video:
-[Enter a topic, paste your copy, or describe what you need]
+Use Model Engine (A) to turn the following topic or text into a stickman video:
+[Enter a topic, paste your text, or describe your idea]
 
-Requirements: landscape 16:9, A3 "Prehistoric Cave" style, starting with 30 seconds.
-Give me the director's treatment first. After I approve it, provide scene-by-scene video prompts.
+Requirements: 16:9 landscape, style A3 “Prehistoric Cave.” Start with a 30-second video.
+
+First, give me a story outline, an audio plan, and a storyboard.
+After I approve them, provide self-contained video generation prompts for each scene.
 ```
 
-**Workflow: share your topic and brief → develop the story script → optionally approve front, side, and back character views → generate detailed storyboard prompts → manually generate clips and edit the final video**
-
-The treatment covers the story structure, scene-by-scene narration, actions, camera direction, and sound design. Copy each prompt into [Google Flow](https://flow.google.com/) or another video generator, then add captions and finish the edit in CapCut or your preferred editor.
-
-For your first video, follow the [visual production walkthrough on X](https://x.com/CrazyKaomei/status/2102311241046008268) (Thread with step-by-step video demos).
+- **Production workflow:** After approving the storyboard, you can generate the clips manually or ask your agent to generate them using its browser tools. Start with a low-resolution test. Once you approve the result, your agent can handle the remaining clips and assemble the full video, adding captions and audio as needed.
+- **Recommended platform:** Use Google Flow to get closer to the sample results. For your first video, see the [detailed tutorial on X](https://x.com/CrazyKaomei/status/2102311241046008268).
 
 <a id="autopilot-start"></a>
 
-### B · Autopilot Mode: from a brief to a long-form video
-
-After installing in Codex, Claude Code, or another environment with file access and command execution, try:
+### B · Code Engine
 
 ```text
-Use Autopilot Mode / mode B to turn the following topic, article, post, news item, or brief
-into a compelling YouTube video:
-[Paste content or a link, or describe what you want to promote]
+Use Code Engine (B) to turn the following topic or article into an engaging stickman video:
+[Paste an article, a news story, or a link, or describe your topic]
 
-Requirements: 5–10 minutes, landscape 16:9, B1 "Minimal Line Art" style, with voiceover, captions, and sound effects.
+Requirements: 16:9 landscape, 8 minutes, style B1 “Minimal Line Art,” with voiceover, captions, and sound effects.
 
-Check the image generation, voiceover, and video-rendering setup first. Then give me a script and a 20-second preview with sound.
-After I approve it, build the full video with visuals timed to the narration. Deliver a complete video file; I do not want to assemble scenes myself.
+First, check that the local tools for image generation and rendering are set up. Then provide a complete script and a preview of the opening 20 seconds with audio.
+After I approve both, automatically prepare all assets, write the code, and render the complete video locally.
 ```
 
-**Workflow: share a topic, content, or brief → approve the script → approve a 20-second preview with sound → automatically produce the full video → receive the finished video file**
+- **Production workflow:** After you approve the script and the preview of the opening 20 seconds with audio, the agent prepares the assets, animation, captions, and audio to match the selected style, then renders the full video locally and provides a preview.
+- **Targeted edits:** If you’re unhappy with part of the visuals or audio, ask your agent to adjust just that section while keeping the approved parts.
 
-The AI assistant plans the scenes, generates the visuals and narration, adds captions and sound effects, and renders a complete video to the voiceover's timing. You approve the script and preview; you do not have to generate and assemble every scene yourself.
+### Step 3: Create a thumbnail, title, and description
 
-On first use, it checks the required setup and walks you through anything missing. If a visual or voiceover section needs work, revise just that section and keep what you have already approved.
+Once you’re happy with the finished video, continue with the [Thumbnail & Publishing Kit](#thumbnail-publishing-kit). Send this to your agent:
 
-**Optional finishing for either mode:** once you confirm the final video, continue with the [Thumbnail & Publishing Kit](#thumbnail-publishing-kit) for a matching cover and upload copy—or finish here. No new mode or installation is needed.
+```text
+Create a thumbnail, video title, description, and pinned comment for the video we just made, using the approved visual style.
+```
+
+The AI will generate a matching thumbnail, video title, description, and pinned comment in one step, without switching modes or reconfiguring your setup.
 
 <a id="style-gallery"></a>
 
 <a id="a-styles"></a>
 
-## 🎨 A · Director Mode style gallery
+## 🎨 A · Model Engine Overview
 
-Styles are numbered A1, A2, A3… Each includes its own animated examples.
+The current Model Engine (A) samples were created with [Google Flow](https://flow.google.com/). You can also choose another video generation platform. <strong>Before asking your agent to produce a video automatically, make sure you’re logged in and have available credits.</strong>
+
+Styles are numbered A1, A2, A3… Each style includes its own animated samples.
 
 <a id="a1"></a>
 
@@ -258,7 +310,7 @@ No phones. No offices. So why are the cavemen still stuck working? Visually insp
 
 | Example 1: "How Did Humans Get Their First Job?" | Example 2: "The First Discovery of Fire" |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? Animated preview" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="The First Discovery of Fire: community animation" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="How Did Humans Get Their First Job? Animated preview" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="The First Discovery of Fire: community animation" width="360"> |
 | Prehistoric story · Workplace twist | Discovery of fire · Community creation |
 
 ---
@@ -316,16 +368,50 @@ What if you woke up and everything cost ten thousand times less? The visual insp
 
 <a id="a7"></a>
 
-### A7: Coming soon…
+### A7: Rubber Hose Animation
 
-New specialized director styles are in preparation. [Star the project](#road-to-10000-stars--creator-ecosystem) to follow future updates.
+A fine-line stickman steps into richly drawn vintage scenery, turning everyday mishaps into theatrical comedy through elastic gestures, expressive faces and continuous character acting. Muted sage, ivory and tiny faded-red accents preserve the period charm while keeping the actor clear.
+
+- **The look**: A consistent white circular face, two curved hair tufts and a thin-line body; confident ink contours, matte painted textures, prop interaction and expressive editing.
+- **Made for**: Absurd comedy, everyday fables, twist stories and music-led shorts.
+
+| Example 1: Chased by a cloud | Example 2: A rainy street |
+|:---:|:---:|
+| <a href="assets/readme/style-7-rubber-hose.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation · Example 1: Chased by a cloud" width="360"></a> | <a href="assets/readme/style-7-rubber-hose-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose-2.gif" alt="A7 · Rubber Hose Animation · Example 2: A rainy street" width="360"></a> |
+| Vintage hand-drawn streets · Elastic character acting | Rainy atmosphere · Prop interaction and reaction cuts |
+
+---
+
+<a id="a8"></a>
+
+### A8: Studio Ghibli Style
+
+Deep blue skies and seas, towering clouds, and sun-warmed stone walls set the scene for these hand-painted adventures. A sea breeze ripples the laundry and lifts the awnings. When a letter flies out of a messenger’s satchel, an ordinary ride turns into a little adventure.
+
+- **The look**: Textured gouache backgrounds, rich blocks of color, and crisp shadows frame stick figures drawn in the flat colors of traditional cel animation. Round heads, dot eyes, and thin ink-line limbs keep the figures simple.
+- **Made for**: Travel stories, everyday adventures, stories about working life, and fables with a touch of whimsy.
+
+| Demo 1: Mountain Workshop | Demo 2: Seaside Messenger |
+|:---:|:---:|
+| <a href="assets/readme/style-8-graphic-novel-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel-2.gif" alt="A8 · Studio Ghibli Style · Demo 1: Mountain Workshop" width="360"></a> | <a href="assets/readme/style-8-graphic-novel.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Studio Ghibli Style · Demo 2: Seaside Messenger" width="360"></a> |
+| Wide mountain views · Wind and rope work | Painted coastal streets · Cycling and catching a letter |
+
+---
+
+<a id="a9"></a>
+
+### A9: Coming soon…
+
+New Model Engine styles are in preparation. [Star the project](#road-to-10000-stars--creator-ecosystem) to follow future updates.
 
 
 <a id="b-styles"></a>
 
-## 🤖 B · Autopilot Mode style gallery
+## 🤖 B · Code Engine Overview
 
-Styles are numbered B1, B2, B3… Each has its own finished examples combining illustrated scenes with subtle animation, maintained separately from the A series.
+All current Code Engine (B) samples were made with Codex: its built-in image model, <strong><code>gpt-image-2</code></strong>, generates the visual assets, then code drives the layered animation and renders the video locally. Before asking another agent to produce a video automatically, <strong>make sure it can read and write files, execute terminal commands, and has the required tools configured.</strong>
+
+Styles are numbered B1, B2, B3… Each style includes its own complete sample videos. Names such as Bodi, Fola, Brian, Claire and The Pharaoh 3 in the sample captions are the text-to-speech voices used for those samples; you can choose any voice.
 
 <a id="b1"></a>
 
@@ -415,7 +501,7 @@ Like stumbling across a curious late-night broadcast. Inspired by YouTube's [@Br
 A countdown. A late-night call. A rule you must never break. Ordinary places become traps in a look inspired by YouTube's [@BeanieSurvives](https://www.youtube.com/@BeanieSurvives) (**100K subscribers gained in 3 weeks**). Round white heads, white gloves, and stark light and shadow give simple characters an unsettling world to inhabit.
 
 - **The look**: Half-shadowed openings, unnerving close-ups, and threats emerging from the dark. Small changes in expression, light, and props build suspense without explaining every image.
-- **The sound**: Brian draws you in from the opening. A quiet, continuous ambient bed carries the tension; story-driven effects make the danger audible without overwhelming the narration.
+- **The sound**: The narrator (the Brian voice) draws you in from the opening. A quiet, continuous ambient bed carries the tension; story-driven effects make the danger audible without overwhelming the narration.
 - **Made for**: Survival rules, urban legends, disaster escapes, and suspense with a twist.
 
 <table width="100%">
@@ -440,9 +526,9 @@ A countdown. A late-night call. A rule you must never break. Ordinary places bec
 <!-- b5:section:start -->
 <a id="b5"></a>
 
-### B5: Character Explainer
+### B5: Avatar Explainer
 
-Give your favorite avatar a starring role—permission is required to use well-known characters. Your presenter takes the mic in the corner while expressive stickmen act out the idea—dragged around by bills, flattened by pressure, or caught in a visual punchline. Even abstract ideas become something viewers can see and remember.
+Give your favorite avatar a starring role. (Using a well-known character requires permission.) Your presenter takes the mic in the corner while expressive stickmen act out the idea—dragged around by bills, flattened by pressure, or caught in a visual punchline. Even abstract ideas become something viewers can see and remember.
 
 - **The look**: Warm paper textures, a distinctive presenter, and bold black-and-red type. Exaggerated weight, recoil, and transforming props turn explanations into visual metaphors.
 - **The sound**: Clear narration leads, with lip sync, expressions, and captions following the voice. Sound effects land on the action; light music stays out of the way.
@@ -458,7 +544,7 @@ Give your favorite avatar a starring role—permission is required to use well-k
     <td width="50%" align="center"><a href="assets/readme/b5-character-explainer-crazymei.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2335d82fc55fa60bb3e20296b5da835498f4abaa/assets/readme/previews/b5-character-explainer-crazymei.gif" alt="B5 Crazy Mei explainer about three video mistakes, with visual metaphors and physical comedy" width="360"></a></td>
   </tr>
   <tr>
-    <td align="center">The Pharaoh 3 narration · Animated Host · Expressive action</td>
+    <td align="center">The Pharaoh 3 narration · Animated presenter · Expressive action</td>
     <td align="center">Claire narration · Crazy Mei presenter · Visual metaphors</td>
   </tr>
 </table>
@@ -470,13 +556,13 @@ Give your favorite avatar a starring role—permission is required to use well-k
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6: Dynamic Meme Animation
+### B6: Meme Story Animation
 
-Expressive meme faces, loose hand-drawn lines and soft colors turn unusual stories into lively short cartoons. Wide scenes give characters, props and camera moves room to play.
+Expressive meme faces, loose hand-drawn lines and soft colors turn unusual stories into lively short cartoons. The style is inspired by YouTube's [@RicksClips3000](https://www.youtube.com/@RicksClips3000) (**about 180,000 subscribers**). Wide scenes give characters, props and camera moves room to play.
 
-- **Visuals**: Ink lines of varying weight, matte paint and soft lighting keep the head, body and scenery in a consistent hand-drawn style, **with better results in portrait**.
-- **Motion**: Lateral tracking, layered depth, handoffs and reaction close-ups follow the story, with clear pauses for each visual punchline.
-- **Best for**: Historical oddities, con stories, absurd comedy and short stories with a twist.
+- **The look**: Ink lines of varying weight, matte paint and soft lighting keep the head, body and scenery in a consistent hand-drawn style, **with better results in portrait**.
+- **The motion**: Lateral tracking, layered depth, handoffs and reaction close-ups follow the story, with clear pauses for each visual punchline.
+- **Made for**: Historical oddities, con stories, absurd comedy and short stories with a twist.
 
 <table width="100%">
   <tr>
@@ -497,11 +583,39 @@ Expressive meme faces, loose hand-drawn lines and soft colors turn unusual stori
 
 ---
 
+<!-- b7:section:start -->
 <a id="b7"></a>
 
-### B7: Coming soon…
+### B7: Pixel Theater
 
-New Autopilot styles and procedural animations are in preparation. [Star the project](#road-to-10000-stars--creator-ecosystem) to follow future updates.
+Small pixels, big consequences. A white stick-figure cast turns everyday choices into playful little game worlds, where a button press, a missed chance, or one careless answer can change everything.
+
+- **The look**: Crisp pixel art, expressive white characters, and scene-specific color palettes—no blurred edges or smooth-vector substitutes.
+- **The motion**: Characters, props, and scenery bring the story to life. A closing reflection, pixel keystrokes, subtle motion, softly pulsing text, and fitting music let the ending linger.
+- **Made for**: Choice-driven stories, ironic life lessons, dark comedy, and emotional fables with a game-like twist.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Example 1: What happens when you keep saying “I don’t care”?</th>
+    <th width="50%" align="center">Example 2: Don’t fast-forward your life</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="Example 1: What happens when you keep saying “I don’t care”?" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-fast-forward-excerpt.gif" alt="Example 2: Don’t fast-forward your life" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Pixel character animation · Game-inspired music & SFX</td>
+    <td align="center">Brian voiceover · Story-driven SFX · Typewriter quote ending</td>
+  </tr>
+</table>
+
+<!-- b7:section:end -->
+
+<a id="b8"></a>
+
+### B8: Coming soon…
+
+New Code Engine styles and procedural animations are in preparation. [Star the project](#road-to-10000-stars--creator-ecosystem) to follow future updates.
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -510,7 +624,7 @@ New Autopilot styles and procedural animations are in preparation. [Star the pro
 
 **Your video is only as good as the click.** Once your animation is complete, orchestrate matched thumbnail art, high-CTR titles, and viewer engagement hooks in the same workflow.
 
-An integrated finishing pack for both **Director and Autopilot Mode**: generates visual hooks tailored to your video's approved character and art style, complete with ready-to-publish YouTube metadata.
+An integrated finishing pack for both **Model Engine and Code Engine**: generates visual hooks tailored to your video's approved character and art style, complete with ready-to-publish YouTube metadata.
 
 <table width="100%">
   <tr>
@@ -550,7 +664,7 @@ An integrated finishing pack for both **Director and Autopilot Mode**: generates
 
 ### How to trigger it:
 
-After you confirm the final video, your assistant will ask whether you want this optional finishing pack. Say yes to continue, or skip it without delaying video delivery. No need to copy a prompt. You can also ask directly:
+After you confirm the final video, your agent will ask whether you want this optional finishing pack. Say yes to continue, or skip it without delaying video delivery. No need to copy a prompt. You can also ask directly:
 
 ```text
 Generate the Thumbnail & Publishing Kit for this video:
@@ -561,7 +675,7 @@ Generate the Thumbnail & Publishing Kit for this video:
 - A pre-publish checklist with any pending checks clearly marked
 ```
 
-*Image generation requires an available tool and any necessary cost approval; if unavailable, the assistant explains the gap and still delivers the text pack. An early request based on an approved script produces drafts, with final-cut checks pending. Download the cover and copy the text into YouTube Studio or TikTok as appropriate; nothing is uploaded or published automatically.*
+*Image generation requires an available tool and any necessary cost approval; if unavailable, your agent explains the gap and still delivers the text pack. An early request based on an approved script produces drafts, with final-cut checks pending. Download the cover and copy the text into YouTube Studio or TikTok as appropriate; nothing is uploaded or published automatically.*
 
 <!-- thumbnail-publishing-kit:end -->
 
@@ -573,21 +687,21 @@ Generate the Thumbnail & Publishing Kit for this video:
 
 ### Q1. Is this really 100% free? Are there any hidden fees?
 
-Yes. Stickman Video Director is 100% free and open-source under the MIT license. You can use it freely for both personal and commercial projects. Unlike proprietary SaaS platforms that charge $30–$60/month, this project has zero subscription fees. You only pay for your own third-party API usage (e.g., Google Gemini, Claude, or ElevenLabs) based on the models you choose to connect.
+Yes, the Skill itself is free: it's open-source under the MIT license, for personal and commercial projects, with zero subscription fees—unlike SaaS tools that charge $30–$60/month. There are no hidden fees, but the services you connect have their own costs: your AI agent's plan (such as Codex or Claude Code), third-party API usage for images or voice (such as Google Gemini or ElevenLabs), and, in Model Engine (A), video generation credits on platforms such as Google Flow.
 
 <!-- readme:platforms -->
 
 ### Q2. How do I maintain character consistency?
 
-**B · Autopilot Mode**: Uses a code-driven production workflow. Character image assets are created before the video is produced and reused across scenes, so character consistency is relatively stable.
+**B · Code Engine**: Uses a code-driven production workflow. Character image assets are created before the video is produced and reused across scenes, so character consistency is relatively stable.
 
-**A · Director Mode**: Primarily relies on text-to-video generation. If a character has a complex hairstyle, outfit, or other features that are difficult to reproduce consistently from text alone, add a stick-figure character reference image and keep using it for subsequent clips to make the results more consistent.
+**A · Model Engine**: Primarily relies on text-to-video generation. If a character has a complex hairstyle, outfit, or other features that are difficult to reproduce consistently from text alone, add a stick-figure character reference image and keep using it for subsequent clips to make the results more consistent.
 
-### Q3. Which tools should I use? Do I need a specific image-generation model?
+### Q3. What tools do you recommend? Do I need a specific image generation model?
 
-**I recommend Codex for results closest to the examples.** I created and tested the B Mode showcase videos in Codex; you do not need to write code yourself. Other agents can install the Skill, but differences in models, tool configuration, and execution can affect the results.
+For results closest to the demos, **use Google Flow to generate clips in Model Engine (A) and Codex to produce the full video in Code Engine (B).** All Code Engine demos were made with Codex. Describe what you want in plain language, and the agent writes the code and renders the video locally.
 
-My examples use GPT's built-in model without a separate image-generation API. Other agents should use their available image tools; B5 real-person or complex hosts need generated or approved image assets, not code-drawn substitutes. Voice credits describe the examples, not a required provider. Ask your agent to configure your preferred service, then check a short sample before making the full video. Style presets are defaults, not restrictions: ask your agent to change fonts, text effects, or the video language and adapt the layout to your request.
+**You can choose your own image generation model.** The Code Engine demos used Codex’s built-in image generation tool for visual assets, so that setup needs no separate image generation API. You can also use Claude Code or another agent that can read and write files and run terminal commands, together with your choice of image generation and voiceover tools. Start with a short sample with audio to check the style, captions, and sound before producing the full video.
 
 ### Q4. Can I make a video without an existing script?
 
@@ -598,36 +712,34 @@ Yes. You can paste a rough idea, a shower thought, a news link, or an entire blo
 Traditional AI tools just spit out literal illustrations of text. Stickman Video Director applies real **visual storytelling psychology**:
 
 - **The 3-Second Hook**: Transforms your opening sentence into an immediate visual contradiction or curiosity gap to stop viewers from scrolling away.
-- **Visual Metaphors**: Converts abstract boring concepts into comedic visual jokes (e.g., anxiety depicted as a shrinking hamster wheel, burnout as a 1% battery bar).
+- **Visual Metaphors**: Converts abstract, boring concepts into comedic visual jokes (e.g., anxiety depicted as a shrinking hamster wheel, burnout as a 1% battery bar).
 - **Pacing & Comic Pauses**: Inserts structured pauses, reaction shots, and sound effect cues (SFX) to mirror the comedic timing of creators like Casually Explained.
 
 ### Q6. Can I monetize these videos on YouTube and TikTok?
 
-Yes, absolutely. A major concern for faceless creators is YouTube's "Reused Content" or "Low-effort AI" demonetization policy. Because Stickman Video Director writes custom storytelling arcs, unique narrative pacing, and original visual staging, your output is completely original. Hundreds of channels successfully monetize stickman narrative videos under the YouTube Partner Program (YPP).
+Yes, the videos are yours to publish and monetize. Each video gets its own script, pacing and visual staging instead of reused footage, which is what YouTube's reused-content policy targets. Approval for the YouTube Partner Program (YPP) or the TikTok Creator Rewards Program is still decided by each platform, based on your channel as a whole: add your own ideas and voice, publish consistently, and follow each platform's rules on AI-generated content.
 
 ### Q7. Do I need programming skills or an expensive GPU?
 
-No. You do not need a high-end RTX graphics card or coding knowledge.
-
-- **Director Mode** runs conversationally inside any Skill-compatible AI assistant.
-- **Autopilot Mode** runs inside AI coding agents (like Claude Code, Codex, or Cursor) using simple conversational English. All heavy visual generation is handled via lightweight cloud APIs or procedural rendering, not your local hardware.
+You don’t need to write code yourself or buy a high-end GPU. In Model Engine (A), clips are generated on online video platforms; in Code Engine (B), your agent writes the code and renders locally. Your computer’s performance affects production speed, but it isn’t the deciding factor.
 
 <!-- readme:contribute -->
 
 <a id="road-to-10000-stars--creator-ecosystem"></a>
 
-## ⭐ Road to 20,000 Stars & Creator Ecosystem
+## ⭐ Road to 20,000 Stars
 
-**Every star fuels the next drop!** Together, we’re building a 100% free, open-source studio to help solo creators run faceless channels without $50/mo SaaS subscriptions.
+**Every star fuels the next drop!** Together, we’re building a free, open-source studio to help solo creators run faceless channels without $50/mo SaaS subscriptions. [Star the repo](https://github.com/kaomei/stickman-video-director) to help unlock the next milestone.
 
-- [x] **1,000 Stars**: Shipped Director Mode + 5 core visual styles
-- [x] **3,000 Stars**: Shipped AutoPilot Mode for 1-click video generation
-- [x] **6,000 Stars**: Shipped 10+ high-quality new visual styles
+- [x] **1,000 Stars**: Model Engine + 5 core visual styles
+- [x] **3,000 Stars**: Code Engine for end-to-end video generation
+- [x] **6,000 Stars**: 10+ high-quality new visual styles
 - [ ] **🔥 10,000 Stars**:
   - 1,000+ YouTube script prompts shared by modes A and B
-  - [B audio library](skills/directing-stickman-videos/references/b-audio-library.md): 774 SFX/transitions + 31 music tracks + 85 short musical stingers, with B-style/beat recommendations, offline export, item-level licenses and required credits
+  - [B sound library](skills/directing-stickman-videos/references/b-audio-library.md) — already available: 774 sound effects and transitions, 31 music tracks and 85 short musical stingers, licensed and ready to use
 - [ ] **20,000 Stars**:
-  - Launch Stickman AI Studio — from idea to finished video, on autopilot
+  - Channel Autopilot — give it your niche and get a week of ready-to-publish videos, with thumbnails and titles, in one run
+  - Stickman AI Studio — an open-source desktop app: paste a script, pick a style, preview and tweak every scene on a visual timeline, then render. No terminal needed.
   - More surprises ahead — let’s discover them together
 
 <div align="center">
@@ -644,7 +756,7 @@ No. You do not need a high-end RTX graphics card or coding knowledge.
 
 ## 🔮 Planned Visual Styles
 
-We are actively training new specialized engines for the most requested faceless YouTube niches:
+We are actively developing new styles for the most requested faceless YouTube niches:
 
 - **OverSimplified History & Lore** — Tiny historical figures, conquest arrows & satirical battle maps
 - **Stickman Combat & Speedlines** — Alan-Becker-style dynamic combat, martial arts & impact frames
@@ -662,10 +774,12 @@ Got a style idea or want to get featured? Join our [Telegram Community](https://
 - **Request a Style**: Send a visual reference link + the niche you want to cover.
 - **Get Featured**: Made a video with this tool? Send your link to be showcased in this README and on our official YouTube channel!
 
-🔔 *Follow **[@CrazyKaomei](https://x.com/CrazyKaomei)** on X for daily video workflows, automation tools, and channel growth SOPs.*
+🔔 **Follow [@AveryRunsAI](https://x.com/AveryRunsAI) on X for new tutorials, video workflows, automation tools, and channel growth tips.**
 
 ## 📄 License
 
 Released under the [MIT License](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE). Free to use, modify, distribute, and use commercially. Keep the original copyright and license notice when distributing the project or substantial portions of it.
+
+Third-party music, sound effects, and other assets remain subject to their own licenses and attribution requirements. See the corresponding asset notices.
 
 Provided “as is,” without warranty. See [LICENSE](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE) for the full terms.

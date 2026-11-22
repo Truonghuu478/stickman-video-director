@@ -4,118 +4,167 @@
 
 # 🎬 Stickman Video Director
 
-**Ubah naskah apa pun menjadi video animasi stickman viral dalam berbagai gaya untuk channel YouTube tanpa tampil di kamera.**
+**Skalakan jaringan channel tanpa wajah Anda dengan animasi stickman otomatis.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-Mulai dari topik, artikel, atau naskah. Susun visual, narasi, subtitle, dan efek suara secara otomatis menjadi video stickman yang siap dipublikasikan.
+**Kirim satu pesan ke agen AI Anda, dapatkan video stickman yang sudah jadi.**<br>
+Naskah, voiceover, subtitle & suara · 15 gaya teruji · Untuk Claude Code, Codex & lainnya
 
-**⚡ 100% gratis dan open source. Tanpa kamera, tanpa langganan US$50/bulan, dan siap dalam hitungan menit, bukan hari.**
+💬 Satu pesan → ✅ Setujui naskah & pratinjau → 🎬 Video jadi
 
-Gaya visual terus diperbarui untuk channel **penjelasan sains, psikologi gelap, fabel teknologi, kisah viral, dan storytelling.**
+**Tanpa ribet animasi After Effects. Tanpa pajak langganan SaaS $50/bulan. Upload tiap hari tanpa burnout.**
+
+[Panduan Cepat](#quick-start) · [Showcase](#style-gallery) · [FAQ](#faq) · [Roadmap](#road-to-10000-stars--creator-ecosystem) · [Komunitas](#community)
+
+*⭐ Berikan Star pada repositori ini untuk mendapatkan rilis gaya dan fitur terbaru.*
 
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>Hitam Putih Klasik</strong><br>
+<b>A1-</b><strong>Hitam Putih Klasik</strong><br>
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="Animasi stickman hitam putih klasik dengan garis putih di latar hitam" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Pop Modern</strong><br>
-<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Stickman berkupluk merah dengan efek cahaya teknologi modern" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>Gua Prasejarah</strong><br>
-<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Cerita stickman di gua prasejarah dengan kejutan komedi" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>Cerita Hangat</strong><br>
-<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Karakter stickman ekspresif di latar keseharian penuh warna" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>Kartun Sejarah</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Animasi stickman sejarah di Jepang zaman Edo" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>Seni Garis Minimalis</strong><br>
+<b>B1-</b><strong>Seni Garis Minimalis</strong><br>
 <a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="Video stickman sketsa tangan minimalis dengan karakter ekspresif, teks utama, dan animasi ringan" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Amber Noir</strong><br>
-<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Animasi stickman Amber Noir: karakter berhoodie oranye di kota bercahaya hangat dengan bayangan pekat" width="90%"></a>
+<b>A2-</b><strong>Pop Modern</strong><br>
+<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="Stickman berkupluk merah dengan efek cahaya teknologi modern" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>Gambar Tangan Berwarna</strong><br>
+<b>B2-</b><strong>Gambar Tangan Berwarna</strong><br>
 <a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="Video figur stik gambar tangan berwarna: kamar tenang dan pikiran yang mengalir bersama sungai" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>Gaya TV Retro</strong><br>
+<b>A3-</b><strong>Gua Prasejarah</strong><br>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="Cerita stickman di gua prasejarah dengan kejutan komedi" width="90%"></a>
+</td>
+<!-- b3:hero:start -->
+<td width="50%" align="center">
+<b>B3-</b><strong>Gaya TV Retro</strong><br>
 <a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="Misteri fiksi TV pukul 3 pagi dengan karakter putih membulat" width="90%"></a>
 </td>
+<!-- b3:hero:end -->
+</tr>
+<tr>
 <td width="50%" align="center">
-<strong>Thriller Bertahan Hidup</strong><br>
+<b>A4-</b><strong>Cerita Hangat</strong><br>
+<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="Karakter stickman ekspresif di latar keseharian penuh warna" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<b>B4-</b><strong>Thriller Bertahan Hidup</strong><br>
 <a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · Thriller Bertahan Hidup" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:end -->
-<!-- b5:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>Penjelasan dengan Karakter</strong><br>
+<b>A5-</b><strong>Kartun Sejarah</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="Animasi stickman sejarah di Jepang zaman Edo" width="90%"></a>
+</td>
+<!-- b5:hero:start -->
+<td width="50%" align="center">
+<b>B5-</b><strong>Penjelasan dengan Karakter</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 tentang meminta bantuan, dengan pembawa acara animasi dan manusia lidi ekspresif" width="90%"></a>
+</td>
+<!-- b5:hero:end -->
+</tr>
+<tr>
+<td width="50%" align="center">
+<b>A6-</b><strong>Amber Noir</strong><br>
+<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Animasi stickman Amber Noir: karakter berhoodie oranye di kota bercahaya hangat dengan bayangan pekat" width="90%"></a>
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<b>B6-</b><strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
-<!-- b5:hero:end -->
+<tr>
+<!-- a7:hero:start -->
+<td width="50%" align="center">
+<b>A7-</b><strong>Rubber Hose Animation</strong><br>
+<a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation" width="90%"></a>
+</td>
+<!-- a7:hero:end -->
+<!-- b7:hero:start -->
+<td width="50%" align="center">
+<strong>Teater Piksel</strong><br>
+<a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · Teater Piksel" width="90%"></a>
+</td>
+<!-- b7:hero:end -->
+</tr>
+<tr>
+<!-- a8:hero:start -->
+<td width="50%" align="center">
+<b>A8-</b><strong>Terinspirasi Ghibli</strong><br>
+<a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Terinspirasi Ghibli" width="90%"></a>
+</td>
+<!-- a8:hero:end -->
+<td width="50%" align="center"></td>
+</tr>
 </table>
-
-<div align="center">
-
-**12 gaya visual · Contoh yang sudah diuji · Gratis dan open source**
-
-⭐ **Beri Star pada proyek ini agar tidak ketinggalan gaya dan fitur baru berikutnya.**
-
-[Mulai di sini](#quick-start) · [Gaya & Demo](#style-gallery) · [Tanya jawab](#faq) · [Peta jalan](#road-to-10000-stars--creator-ecosystem) · [Komunitas](#community)
-
-</div>
 
 <a id="creation-modes"></a>
 
-## 🎬 Dua mode pembuatan video
+## 🎬 Dua mode pembuatan video: Model Engine vs Code Engine
 
-**Ingin mengontrol setiap shot? Pilih A · Director Mode. Ingin video jadi tanpa merangkai adegan sendiri? Pilih B · Autopilot Mode.** Satu proyek, dua alur kerja.
+**Satu sutradara stickman, dua cara membuat visual**: Mode A menggunakan model video untuk menghasilkan adegan yang berkesinambungan, sedangkan mode B menggerakkan aset dengan kode untuk membuat animasi berlapis. Keduanya mendukung produksi otomatis oleh agen AI hingga menjadi video utuh, dengan tetap mengikuti standar gaya yang dipilih secara ketat.
 
-|  | <div align="center">A · Director</div> | <div align="center">B · Autopilot</div> |
-|:---:|:---|:---|
-| **Cara kerja** | **Anda mengendalikan produksi, AI menyusun arahan:** dapatkan storyboard dan prompt, lalu atur sendiri pembuatan klip dan editing. | **Berikan topik atau kebutuhan, terima video jadi:** ilustrasi, narasi, subtitle, animasi ringan, dan penggabungan video dikerjakan otomatis. |
-| **Durasi** | **Diutamakan untuk video pendek**, misalnya 30 detik–3 menit; video lebih panjang juga bisa dibuat per bagian. | **Diutamakan untuk video panjang**, terutama video bernarasi **10 menit ke atas**; juga mendukung video pendek dan cerita bersambung. |
-| **Alat** | Rencanakan dengan asisten AI yang mendukung Skill, buat klip di generator video pilihan Anda (Google Flow, Runway, Luma, Kling, dan lainnya), lalu susun di CapCut atau Premiere. | Dijalankan melalui agen seperti **Codex atau Claude Code** yang dapat membaca dan menulis file, memakai alat, serta menjalankan perintah untuk menghubungkan pembuatan materi dengan penggabungan video lokal. |
-| **Visual** | **Animasi per adegan:** berfokus pada gerakan, arahan kamera, dan interaksi karakter. | **Storyboard ilustrasi + animasi lokal:** ekspresi, reaksi karakter, dan gerakan objek mengikuti narasi, didukung pergantian adegan, zoom, dan pergeseran kamera. Gerakan kamera atau kemunculan teks saja tidak dihitung sebagai animasi adegan. |
-| **Hasil** | Rancangan penyutradaraan, storyboard, prompt video per bagian, dan arahan suara. | **File video lengkap dengan narasi, subtitle, dan animasi ringan.** |
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle"></th>
+<th align="center" valign="middle"><div align="center">A · Model Engine</div></th>
+<th align="center" valign="middle"><div align="center">B · Code Engine</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"><strong>Konsep</strong></td>
+<td align="left" valign="middle">Memasukkan prompt dan storyboard ke model pembuat video untuk langsung menghasilkan klip video yang mengalir.</td>
+<td align="left" valign="middle">Menghasilkan aset visual berlapis, lalu menulis dan menjalankan kode untuk menganimasikan, menyusun komposisi, dan merender secara lokal.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Keunggulan</strong></td>
+<td align="left" valign="middle">Gerakan alami yang mengalir dan pencahayaan sinematik; visual yang hidup dengan dinamika sinematik yang kaya.</td>
+<td align="left" valign="middle">Karakter yang konsisten dengan aset yang dapat digunakan kembali; pengaturan ritme linimasa yang presisi, kontrol tata letak, dan penyesuaian lokal yang mudah.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Cocok untuk</strong></td>
+<td align="left" valign="middle">Kreator yang memiliki akses ke sumber daya pembuat video (misalnya Google Flow, API terjangkau, atau model lokal yang dihosting sendiri) dan berfokus pada konten pendek dengan visual yang memukau.</td>
+<td align="left" valign="middle">Pengguna dengan langganan Codex atau Claude Code aktif yang ingin memanfaatkan sisa kuota coding tanpa membayar lagi untuk kredit model video yang mahal.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Alur kerja</strong></td>
+<td align="left" valign="middle">Konfirmasikan naskah dan gaya untuk mendapatkan prompt per adegan agar dapat membuat video secara manual; atau biarkan AI mengoperasikan browser bawaan untuk menghasilkan klip, menyambung adegan, serta menangani subtitle dan audio.</td>
+<td align="left" valign="middle">Konfirmasikan naskah video dan sampel 20 detik untuk gaya yang dipilih, lalu biarkan AI secara otomatis menangani seluruh persiapan aset, penulisan kode, eksekusi animasi, subtitle, audio, dan rendering lokal.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Hasil</strong></td>
+<td align="left" valign="middle">Naskah storyboard + prompt per adegan + (file video lengkap)</td>
+<td align="left" valign="middle">Pustaka aset berlapis (karakter/adegan/properti) + file video lengkap</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>Biaya</strong></td>
+<td align="left" valign="middle">Menghabiskan kredit/poin pembuatan dari model video; video yang lebih panjang meningkatkan biaya dan beban pembuatan ulang secara signifikan.</td>
+<td align="left" valign="middle">Tidak memerlukan kredit model video; rendering dilakukan secara lokal dengan kuota agen yang sudah Anda miliki serta alat gambar/TTS dasar.</td>
+</tr>
+</tbody>
+</table>
 
-Kedua alur kerja bisa dimulai dari topik mentah, tautan web, atau naskah lengkap. Pilih rasio aspek (9:16, 16:9, 1:1), bahasa narasi, dan suara dengan bebas. Durasi di atas adalah rekomendasi, bukan batas mutlak.
+Mulai dengan sebuah ide, artikel, tautan web, atau naskah lengkap. Kedua mode mendukung video pendek maupun panjang. Pilih format horizontal `16:9` atau vertikal `9:16` sesuai platform publikasi, lalu sesuaikan subtitle, narasi, musik latar, dan efek suara dengan kebutuhan serta standar gaya yang dipilih.
 
-💡 **Catatan Penyiapan Cepat**:
-
-- **Director Mode** dapat digunakan di jendela percakapan AI standar.
-- **Autopilot Mode** berjalan di agen coding AI dengan akses file dan terminal (seperti **Claude Code, OpenAI Codex, atau Cursor**) untuk menangani rendering hingga penyerahan file secara otomatis.
+Belum menentukan gaya? Di bawah ini tersedia penjelasan setiap gaya, topik yang cocok, serta lebih banyak contoh video sebagai referensi.
 
 <!-- project-sponsor:start -->
 <a id="project-sponsor"></a>
@@ -141,88 +190,82 @@ Kedua alur kerja bisa dimulai dari topik mentah, tautan web, atau naskah lengkap
 
 <a id="quick-start"></a>
 
-## 🧭 Mulai di sini
+## 🧭 Mulai menggunakan
 
-**Agar hasilnya sedekat mungkin dengan contoh, saya menyarankan untuk mulai dengan Codex.** Contoh buatan saya di proyek ini dibuat dan diuji menggunakan Codex.
+<strong>Untuk hasil yang sedekat mungkin dengan contoh yang ditampilkan, kami menyarankan alat AI dengan kemampuan pemrograman yang kuat, seperti Codex atau Claude Code.</strong>
 
-Skill juga dapat dipasang di Claude Code, Cursor, Antigravity, atau agent lain yang memiliki akses file dan terminal. Namun, perbedaan kemampuan model, konfigurasi alat, dan cara eksekusi dapat menghasilkan keluaran yang berbeda.
+Skill ini juga dapat dipasang pada agen AI lain yang mampu membaca/menulis file dan menjalankan perintah terminal. Namun, hasilnya bisa berbeda karena kemampuan model, konfigurasi alat, dan cara eksekusinya tidak sama.
 
-Kirim pesan berikut ke asisten AI Anda:
+### Step 1: Pasang Skill
+
+Pada penggunaan pertama, konfigurasi yang diperlukan akan diperiksa; kekurangan dan cara melengkapinya akan dijelaskan langkah demi langkah. Kirim teks berikut ke asisten AI Anda:
 
 ```text
-Tolong pasangkan Skill ini:
+Bantu saya memasang Skill ini:
 https://github.com/kaomei/stickman-video-director
 
-Setelah berhasil dipasang, segera baca SKILL.md yang terpasang.
-Jelaskan dengan bahasa sederhana hasil dari kedua mode,
-alat yang diperlukan, serta alur pembuatannya.
-Berikan contoh permintaan yang bisa saya sesuaikan.
-Berdasarkan kebutuhan saya, jelaskan apa yang masih kurang
-dan langkah berikutnya secara konkret.
+Setelah pemasangan berhasil, baca SKILL.md dan beri tahu saya bahwa Anda sudah siap.
 ```
 
-Instalasi kehabisan waktu? Lihat [panduan pemecahan masalah instalasi](skills/directing-stickman-videos/references/installation-troubleshooting.md) untuk macOS/Linux dan Windows.
+Jika Anda lebih suka terminal atau instalasi kehabisan waktu, Anda bisa melihat [panduan instalasi manual](skills/directing-stickman-videos/references/installation-troubleshooting.md).
+
+### Step 2: Pilih gaya dan mode, lalu mulai dengan satu permintaan
+
+Pilih gaya [mode A](#a-styles) atau [mode B](#b-styles) yang Anda sukai. Salin prompt yang sesuai di bawah, sesuaikan dengan kebutuhan, lalu kirim ke asisten AI Anda:
 
 <a id="director-start"></a>
 
-### A · Director: prompt video per adegan
-
-Setelah memasang Skill, kirim pesan ini ke asisten AI dan ganti dengan topik Anda:
+### A · Model Engine
 
 ```text
-Gunakan mode Director / mode A untuk mengubah topik,
-teks, atau kebutuhan berikut menjadi video stickman:
-[Tulis topik, tempel teks, atau jelaskan kebutuhan Anda]
+Gunakan Model Engine (mode A) untuk mengubah topik/teks berikut menjadi video stickman:
+[Tulis topik, tempel teks, atau jelaskan ide Anda secara langsung]
 
-Kebutuhan: horizontal 16:9, gaya A3 “Gua Prasejarah”.
-Buat 30 detik dulu.
-Berikan rancangan penyutradaraan terlebih dahulu.
-Setelah saya setujui, berikan prompt video untuk setiap bagian.
+Ketentuan: Horizontal 16:9, gunakan gaya A3 “Gua Prasejarah”, buat 30 detik terlebih dahulu.
+
+Berikan struktur cerita, arah desain suara, dan storyboard terlebih dahulu;
+setelah saya menyetujuinya, berikan prompt pembuatan video per adegan yang dapat digunakan secara mandiri.
 ```
 
-**Alur: topik dan kebutuhan → naskah cerita → konfirmasi tiga tampak karakter bila diperlukan → prompt adegan terperinci → hasilkan klip dan edit menjadi video secara manual**
-
-Rancangan mencakup struktur cerita, narasi per bagian, gerakan, kamera, dan arahan suara. Setelah menerima prompt, salin satu per satu ke [Google Flow](https://flow.google.com/) atau alat pembuat video lain. Gunakan CapCut atau editor lain untuk menambahkan subtitle dan menyelesaikan video.
-
-Untuk video pertama Anda, ikuti [panduan produksi visual di X](https://x.com/CrazyKaomei/status/2102311241046008268) (utas dengan demo video langkah demi langkah).
+- **Alur produksi:** Setelah storyboard disetujui, Anda dapat membuat video secara manual atau meminta agen mengoperasikan browser bawaan. Uji dahulu dengan resolusi rendah; jika hasilnya sesuai, lanjutkan produksi dan penyuntingan hingga menjadi video utuh.
+- **Platform yang disarankan:** Gunakan Google Flow agar hasilnya lebih mendekati contoh. Untuk produksi pertama, lihat [tutorial lengkap di X](https://x.com/CrazyKaomei/status/2102311241046008268).
 
 <a id="autopilot-start"></a>
 
-### B · Autopilot: dari satu permintaan menjadi video lengkap
-
-Setelah memasang Skill di lingkungan yang bisa mengakses file dan menjalankan perintah, seperti Codex atau Claude Code, katakan:
+### B · Code Engine
 
 ```text
-Gunakan mode Autopilot / mode B untuk mengubah topik, artikel,
-postingan, berita, atau kebutuhan berikut menjadi video
-yang menarik untuk YouTube:
-[Tempel konten atau tautan, atau jelaskan kebutuhan video promosi]
+Gunakan Code Engine (mode B) untuk mengubah topik/artikel berikut menjadi video stickman yang menarik:
+[Tempel artikel panjang, berita, atau tautan, atau jelaskan kebutuhan topiknya]
 
-Kebutuhan: 5–10 menit, horizontal 16:9, gaya B1
-“Seni Garis Minimalis”, dengan narasi, subtitle, dan efek suara.
+Ketentuan: Horizontal 16:9, durasi 8 menit, gunakan gaya B1 “Seni Garis Minimalis”, lengkap dengan narasi, subtitle, dan efek suara.
 
-Periksa dahulu konfigurasi gambar, suara, dan penggabungan video.
-Lalu berikan naskah dan contoh video 20 detik dengan audio.
-Setelah saya setujui, selesaikan seluruh video secara otomatis,
-dengan visual mengikuti ritme narasi. Kirim file video lengkap,
-tanpa perlu saya rangkai per bagian secara manual.
+Periksa dahulu lingkungan pembuatan gambar dan penggabungan video lokal, lalu berikan naskah lengkap beserta contoh 20 detik pertama dengan suara;
+setelah disetujui, selesaikan seluruh persiapan aset, penulisan kode, dan rendering lokal secara otomatis, lalu serahkan video utuhnya.
 ```
 
-**Alur: topik, konten, atau kebutuhan → setujui naskah → setujui contoh 20 detik dengan audio → produksi otomatis → terima video lengkap**
+- **Alur produksi:** Setelah naskah dan contoh 20 detik dengan suara disetujui, agen akan menyiapkan aset, animasi, subtitle, dan suara secara otomatis sesuai gaya yang dipilih, lalu merender video utuh secara lokal dan menyediakan pratinjau.
+- **Penyesuaian bagian tertentu:** Jika visual atau suara belum sesuai, minta AI menyesuaikan bagian terkait saja sambil mempertahankan bagian yang sudah disetujui.
 
-Asisten AI merancang adegan, menghasilkan gambar dan narasi, menyiapkan subtitle dan efek suara, lalu merangkainya mengikuti ritme suara. Anda cukup menyetujui naskah dan contoh video, tanpa membuat serta menyambung setiap bagian sendiri.
+### Step 3: Buat thumbnail dan teks publikasi dengan satu permintaan
 
-Saat pertama digunakan, asisten memeriksa konfigurasi dan menjelaskan apa yang belum tersedia serta cara melengkapinya. Jika gambar atau suara kurang cocok, bagian tersebut bisa disesuaikan tanpa mengulang bagian yang sudah disetujui.
+Setelah puas dengan video akhirnya, Anda dapat melanjutkan pembuatan [paket thumbnail dan publikasi](#thumbnail-publishing-kit). Cukup kirim kalimat berikut ke AI:
 
-**Tahap akhir opsional untuk kedua mode:** setelah menyetujui video final, lanjutkan ke [Kit Thumbnail & Publikasi](#thumbnail-publishing-kit) untuk membuat sampul dengan gaya yang sama dan teks unggahan, atau selesai di sini. Tidak perlu berganti mode atau menginstal ulang.
+```text
+Buat thumbnail dan teks publikasi untuk video tadi dengan mempertahankan gaya visual yang sudah disetujui.
+```
+
+AI akan membuat gambar thumbnail, judul video, deskripsi, dan teks komentar tersemat yang sesuai dengan gaya, tanpa perlu berpindah mode atau mengatur ulang konfigurasi.
 
 <a id="style-gallery"></a>
 
 <a id="a-styles"></a>
 
-## 🎨 Pilihan gaya A · Director
+## 🎨 Ikhtisar A · Model Engine
 
-Diperbarui dengan penomoran A1, A2, A3… Setiap gaya memiliki contoh animasinya sendiri.
+Contoh mode A saat ini dibuat dengan [Google Flow](https://flow.google.com/); Anda juga dapat memilih platform pembuatan video lain. <strong>Sebelum menyerahkan produksi otomatis kepada agen, pastikan akun sudah masuk dan memiliki kuota yang tersedia.</strong>
+
+Gaya diperbarui dengan penomoran A1, A2, A3… Setiap gaya menampilkan contoh animasi yang sesuai.
 
 <a id="a1"></a>
 
@@ -267,7 +310,7 @@ Tak ada ponsel atau kantor. Kenapa manusia gua tetap terjebak pekerjaan? Gaya vi
 
 | Contoh 1: “Dari Mana Datangnya Pekerjaan Pertama Manusia?” | Contoh 2: “Manusia Pertama Kali Menemukan Api” |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="Pratinjau Dari Mana Datangnya Pekerjaan Pertama Manusia?" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Manusia Pertama Kali Menemukan Api, animasi karya komunitas" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="Pratinjau Dari Mana Datangnya Pekerjaan Pertama Manusia?" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="Manusia Pertama Kali Menemukan Api, animasi karya komunitas" width="360"> |
 | Cerita prasejarah · Kejutan dunia kerja | Penemuan api · Karya komunitas |
 
 ---
@@ -325,16 +368,50 @@ Bagaimana jika saat bangun, semua barang sepuluh ribu kali lebih murah? Inspiras
 
 <a id="a7"></a>
 
-### A7: Segera hadir…
+### A7: Rubber Hose Animation
 
-Gaya khusus Director yang baru sedang disiapkan. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk mengikuti pembaruan selanjutnya!
+Figur stik bergaris tipis tampil di latar retro yang digambar dengan rinci. Gerakan lentur, ekspresi kuat, dan akting berkesinambungan mengubah kejadian sehari-hari menjadi komedi teatrikal. Warna hijau sage, gading, dan sedikit merah pudar menjaga nuansa lawas.
+
+- **Tampilannya**: Wajah bulat putih, dua helai rambut melengkung, dan tubuh garis tipis yang konsisten; kontur tinta, tekstur cat matte, interaksi properti, dan penyuntingan ekspresif.
+- **Cocok untuk**: Komedi absurd, fabel keseharian, cerita dengan kejutan, dan film pendek mengikuti musik.
+
+| Contoh 1: Dikejar awan | Contoh 2: Jalanan saat hujan |
+|:---:|:---:|
+| <a href="assets/readme/style-7-rubber-hose.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · Rubber Hose Animation · Contoh 1: Dikejar awan" width="360"></a> | <a href="assets/readme/style-7-rubber-hose-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose-2.gif" alt="A7 · Rubber Hose Animation · Contoh 2: Jalanan saat hujan" width="360"></a> |
+| Jalan retro gambar tangan · Akting lentur | Suasana hujan · Interaksi properti dan potongan reaksi |
+
+---
+
+<a id="a8"></a>
+
+### A8: Terinspirasi Ghibli
+
+Langit dan laut yang biru pekat, awan kumulus yang menjulang, serta dinding batu yang dihangatkan matahari membentuk dunia cerah yang dilukis dengan tangan. Angin laut mengibaskan jemuran dan mengangkat kanopi di sepanjang jalan, lalu menerbangkan sepucuk surat dari tas selempang si kurir. Petualangan kecil pun berawal dari detail sehari-hari seperti ini.
+
+- **Ciri visual**: Latar yang dilukis dengan cat guas, bidang warna yang kaya, dan bayangan matahari yang tegas menonjolkan karakter dengan pewarnaan datar khas animasi sel. Tokoh stickman tetap sederhana dengan wajah bulat, mata berupa titik, serta lengan dan kaki dari garis tipis.
+- **Cocok untuk**: Kisah perjalanan, petualangan sehari-hari, cerita tentang pekerjaan, dan dongeng dengan sentuhan fantasi.
+
+| Contoh 1: Bengkel Pegunungan | Contoh 2: Kurir Pesisir |
+|:---:|:---:|
+| <a href="assets/readme/style-8-graphic-novel-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel-2.gif" alt="A8 · Terinspirasi Ghibli · Contoh 1: Bengkel Pegunungan" width="360"></a> | <a href="assets/readme/style-8-graphic-novel.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · Terinspirasi Ghibli · Contoh 2: Kurir Pesisir" width="360"></a> |
+| Pemandangan pegunungan · Angin dan tarikan tali | Jalan pesisir yang dilukis · Bersepeda dan menangkap surat |
+
+---
+
+<a id="a9"></a>
+
+### A9: Segera hadir…
+
+Gaya Model Engine yang baru sedang disiapkan. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk mengikuti pembaruan selanjutnya!
 
 
 <a id="b-styles"></a>
 
-## 🤖 Pilihan gaya B · Autopilot
+## 🤖 Ikhtisar B · Code Engine
 
-Diperbarui dengan penomoran B1, B2, B3… Setiap gaya memiliki contoh video dengan storyboard ilustrasi dan animasi ringan, dikelola terpisah dari seri A.
+Semua contoh mode B saat ini dibuat dengan Codex: model bawaan <strong><code>gpt-image-2</code></strong> menghasilkan aset visual, lalu kode menggerakkan animasi berlapis dan merender video secara lokal. Sebelum menyerahkan produksi otomatis kepada agen AI lain, <strong>pastikan agen tersebut mampu membaca/menulis file dan menjalankan perintah terminal, serta semua alat yang dibutuhkan sudah dikonfigurasi.</strong>
+
+Gaya diperbarui dengan penomoran B1, B2, B3… Setiap gaya menampilkan contoh video utuh yang sesuai. Nama seperti Bodi, Fola, Brian, Claire, dan The Pharaoh 3 pada keterangan contoh adalah suara text-to-speech yang dipakai di video tersebut; Anda bisa memilih suara apa pun.
 
 <a id="b1"></a>
 
@@ -421,7 +498,7 @@ Seperti tak sengaja menemukan siaran aneh larut malam. Terinspirasi oleh [@Bradi
 
 ### B4: Thriller Bertahan Hidup
 
-Hitung mundur. Telepon larut malam. Aturan yang tak boleh dilanggar. Terinspirasi oleh [@BeanieSurvives](https://www.youtube.com/@BeanieSurvives) di YouTube (**bertambah 100 ribu subscriber dalam 3 minggu**), tempat biasa berubah menjadi jebakan. Kepala putih bulat, sarung tangan putih, dan kontras tajam membawa tokoh sederhana ke dunia yang meresahkan.
+Hitung mundur. Telepon larut malam. Aturan yang tak boleh dilanggar. Dalam dunia yang terinspirasi oleh [@BeanieSurvives](https://www.youtube.com/@BeanieSurvives) di YouTube (**bertambah 100 ribu subscriber dalam 3 minggu**), tempat biasa berubah menjadi jebakan. Kepala putih bulat, sarung tangan putih, dan kontras tajam membawa tokoh sederhana ke dunia yang meresahkan.
 
 - **Tampilannya**: Pembuka setengah berbayang, close-up mengusik, ancaman muncul dari gelap. Perubahan ekspresi, cahaya, dan benda membangun ketegangan tanpa menjelaskan setiap gambar.
 - **Suara**: Brian menarik perhatian sejak awal. Ambiens pelan yang terus mengalir menopang ketegangan; efek sesuai cerita membuat bahaya terdengar tanpa menutupi narasi.
@@ -451,10 +528,10 @@ Hitung mundur. Telepon larut malam. Aturan yang tak boleh dilanggar. Terinspiras
 
 ### B5: Penjelasan dengan Karakter
 
-Jadikan avatar favorit Anda pembawa acara di kanal Anda; penggunaan karakter terkenal memerlukan izin. Sang pembawa acara bercerita di sudut layar, sementara manusia lidi di sebelah kiri memperagakan idenya — diseret tagihan, tergencet tekanan, atau terjebak dalam lelucon visual. Konsep abstrak pun jadi lucu dan mudah diingat.
+Jadikan avatar favorit Anda pembawa acara di channel Anda; penggunaan karakter terkenal memerlukan izin. Sang pembawa acara bercerita di sudut layar, sementara manusia lidi di sebelah kiri memperagakan idenya — diseret tagihan, tergencet tekanan, atau terjebak dalam lelucon visual. Konsep abstrak pun jadi lucu dan mudah diingat.
 
-- **Tampilan**: Tekstur kertas hangat, pembawa acara yang khas, serta teks penekanan hitam dan merah. Bobot berlebihan, gerak memantul, dan properti yang berubah bentuk menjadikan penjelasan sebagai metafora visual.
-- **Suasana audio**: Narasi yang jelas memimpin cerita, dengan gerak bibir, ekspresi, dan takarir mengikuti suara. Efek suara tepat di momen aksi, sementara musik ringan tidak menutupi narasi.
+- **Tampilannya**: Tekstur kertas hangat, pembawa acara yang khas, serta teks penekanan hitam dan merah. Bobot berlebihan, gerak memantul, dan properti yang berubah bentuk menjadikan penjelasan sebagai metafora visual.
+- **Suara**: Narasi yang jelas memimpin cerita, dengan gerak bibir, ekspresi, dan takarir mengikuti suara. Efek suara tepat di momen aksi, sementara musik ringan tidak menutupi narasi.
 - **Cocok untuk**: Video penjelasan, psikologi sehari-hari, pengamatan kehidupan, budaya pop, dan komentar jenaka.
 
 <table width="100%">
@@ -479,11 +556,11 @@ Jadikan avatar favorit Anda pembawa acara di kanal Anda; penggunaan karakter ter
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6: Dynamic Meme Animation
+### B6: Meme Story Animation
 
-Ekspresi meme yang berlebihan, garis gambar tangan yang lepas, dan warna lembut menghidupkan kisah unik menjadi animasi pendek. Latar yang luas memberi ruang gerak bagi tokoh, properti, dan kamera.
+Ekspresi meme yang berlebihan, garis gambar tangan yang lepas, dan warna lembut menghidupkan kisah unik menjadi animasi pendek. Gaya visualnya terinspirasi oleh [@RicksClips3000](https://www.youtube.com/@RicksClips3000) di YouTube (**sekitar 180 ribu subscriber**). Latar yang luas memberi ruang gerak bagi tokoh, properti, dan kamera.
 
-- **Visual**: Garis tinta dengan ketebalan bervariasi, cat matte, dan pencahayaan lembut menjaga keselarasan gaya gambar tangan pada kepala, tubuh, dan latar; **hasilnya lebih baik dalam format vertikal**.
+- **Tampilannya**: Garis tinta dengan ketebalan bervariasi, cat matte, dan pencahayaan lembut menjaga keselarasan gaya gambar tangan pada kepala, tubuh, dan latar; **hasilnya lebih baik dalam format vertikal**.
 - **Gerak**: Pelacakan menyamping, kedalaman berlapis, penyerahan benda, dan close-up reaksi mengikuti cerita, dengan jeda agar setiap aksi dan lelucon terbaca.
 - **Cocok untuk**: Keanehan sejarah, kisah penipuan, komedi absurd, dan cerita pendek dengan kejutan di akhir.
 
@@ -506,11 +583,39 @@ Ekspresi meme yang berlebihan, garis gambar tangan yang lepas, dan warna lembut 
 
 ---
 
+<!-- b7:section:start -->
 <a id="b7"></a>
 
-### B7: Segera hadir…
+### B7: Teater Piksel
 
-Gaya Autopilot dan animasi berbasis kode yang baru sedang disiapkan. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk mengikuti pembaruan selanjutnya!
+Piksel kecil, konsekuensi besar. Karakter stik putih mengubah pilihan sehari-hari menjadi dunia permainan kecil, tempat satu tombol, kesempatan yang terlewat, atau ucapan “terserah” bisa mengubah segalanya.
+
+- **Tampilannya**: Seni piksel yang tajam, karakter putih yang ekspresif, dan palet sesuai adegan—tanpa pembesaran buram atau tiruan vektor yang terlalu halus.
+- **Gerak**: Karakter, benda, dan latar menghidupkan cerita. Renungan penutup, ketikan retro, gerakan kecil, teks yang berpendar lembut, dan musik yang pas meninggalkan kesan mendalam.
+- **Cocok untuk**: Cerita tentang pilihan, pelajaran hidup yang ironis, komedi gelap, dan kisah menyentuh dengan nuansa permainan.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">Contoh 1: Apa jadinya kalau kamu selalu bilang “terserah”?</th>
+    <th width="50%" align="center">Contoh 2: Jangan percepat hidupmu</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="Contoh 1: Apa jadinya kalau kamu selalu bilang “terserah”?" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-fast-forward-excerpt.gif" alt="Contoh 2: Jangan percepat hidupmu" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Animasi karakter piksel · Musik dan efek suara bernuansa gim</td>
+    <td align="center">Narasi Brian · Efek suara sesuai cerita · Pesan penutup dengan efek ketik</td>
+  </tr>
+</table>
+
+<!-- b7:section:end -->
+
+<a id="b8"></a>
+
+### B8: Segera hadir…
+
+Gaya Code Engine dan animasi berbasis kode yang baru sedang disiapkan. [Beri Star pada proyek ini](#road-to-10000-stars--creator-ecosystem) untuk mengikuti pembaruan selanjutnya!
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -519,7 +624,7 @@ Gaya Autopilot dan animasi berbasis kode yang baru sedang disiapkan. [Beri Star 
 
 **Video yang bagus tetap harus menarik klik terlebih dahulu.** Setelah animasi selesai, siapkan thumbnail yang sesuai, judul berpotensi CTR tinggi, dan pemantik interaksi penonton dalam alur kerja yang sama.
 
-Paket penyelesaian terpadu untuk **Director Mode dan Autopilot Mode**: menghasilkan daya tarik visual yang sesuai dengan karakter dan gaya video yang sudah disetujui, lengkap dengan metadata YouTube siap tayang.
+Paket penyelesaian terpadu untuk **Model Engine dan Code Engine**: menghasilkan daya tarik visual yang sesuai dengan karakter dan gaya video yang sudah disetujui, lengkap dengan metadata YouTube siap tayang.
 
 <table width="100%">
   <tr>
@@ -582,21 +687,21 @@ Buat Kit Thumbnail & Publikasi untuk video ini:
 
 ### Q1. Apakah ini benar-benar 100% gratis? Ada biaya tersembunyi?
 
-Ya. Stickman Video Director 100% gratis dan open source dengan lisensi MIT. Anda bebas menggunakannya untuk proyek pribadi maupun komersial. Berbeda dari platform SaaS tertutup yang mengenakan US$30–60/bulan, proyek ini tidak memiliki biaya langganan. Anda hanya membayar penggunaan API pihak ketiga sendiri, seperti Google Gemini, Claude, atau ElevenLabs, sesuai model yang Anda hubungkan.
+Ya, Skill-nya sendiri gratis: open source dengan lisensi MIT, bisa dipakai untuk proyek pribadi maupun komersial, dan tanpa biaya langganan, berbeda dari alat SaaS yang mengenakan US$30–60/bulan. Tidak ada biaya tersembunyi, tetapi layanan yang Anda hubungkan memiliki biayanya sendiri: paket agen AI Anda (seperti Codex atau Claude Code), penggunaan API pihak ketiga untuk gambar atau suara (seperti Google Gemini atau ElevenLabs), serta, di Model Engine (A), kredit pembuatan video di platform seperti Google Flow.
 
 <!-- readme:platforms -->
 
 ### Q2. Bagaimana saya menjaga konsistensi karakter?
 
-**B · Mode Autopilot**: Menggunakan alur produksi berbasis kode. Aset gambar karakter dibuat sebelum produksi video dan dipakai ulang di berbagai adegan, sehingga penampilan karakter relatif konsisten.
+**B · Code Engine**: Menggunakan alur produksi berbasis kode. Aset gambar karakter dibuat sebelum produksi video dan dipakai ulang di berbagai adegan, sehingga penampilan karakter relatif konsisten.
 
-**A · Mode Sutradara**: Terutama mengandalkan pembuatan video dari teks. Jika gaya rambut, pakaian, atau ciri karakter lainnya rumit dan sulit direproduksi secara konsisten hanya dengan teks, tambahkan satu gambar referensi karakter stickman dan terus gunakan pada klip berikutnya agar hasilnya lebih stabil.
+**A · Model Engine**: Terutama mengandalkan pembuatan video dari teks. Jika gaya rambut, pakaian, atau ciri karakter lainnya rumit dan sulit direproduksi secara konsisten hanya dengan teks, tambahkan satu gambar referensi karakter stickman dan terus gunakan pada klip berikutnya agar hasilnya lebih stabil.
 
-### Q3. Alat apa yang sebaiknya saya gunakan? Apakah perlu memilih model pembuat gambar tertentu?
+### Q3. Alat apa yang direkomendasikan? Apakah harus memakai model pembuat gambar tertentu?
 
-**Agar hasilnya sedekat mungkin dengan contoh, saya merekomendasikan Codex.** Video contoh Mode B saya buat dan uji di Codex; Anda tidak perlu menulis kode sendiri. Skill juga dapat dipasang di agent lain, tetapi perbedaan model, konfigurasi alat, dan cara eksekusi dapat memengaruhi hasilnya.
+Agar hasilnya mendekati demo, **gunakan Google Flow untuk membuat klip di mode A dan Codex untuk membuat video lengkap di mode B.** Semua demo mode B dibuat dengan Codex. Jelaskan hasil yang Anda inginkan dengan bahasa sehari-hari, lalu agen akan menulis kode dan merender video secara lokal.
 
-Contoh saya memakai model gambar bawaan GPT tanpa menyiapkan API tambahan. Agen lain dapat memakai alat gambar yang tersedia di lingkungannya. Pembawa acara B5 berupa orang nyata atau karakter kompleks harus memakai gambar yang dihasilkan atau sudah disetujui, bukan wajah pengganti yang digambar dengan kode. Kredit suara menunjukkan sumber contoh, bukan layanan yang wajib dipakai. Bila perlu, minta agen mengatur layanan pilihan Anda, lalu periksa sampel pendek sebelum membuat video lengkap. Preset gaya adalah titik awal, bukan batasan: minta agen mengubah font, efek teks, atau bahasa video dan menyesuaikan tata letaknya dengan keinginan Anda.
+**Anda bebas memilih model pembuat gambar.** Aset visual untuk demo mode B dibuat dengan alat pembuat gambar bawaan Codex tanpa perlu API pembuatan gambar terpisah. Anda juga bisa memakai Claude Code atau agen lain yang dapat membaca dan menulis file serta menjalankan perintah di terminal, dengan alat pembuat gambar dan sulih suara pilihan Anda. Buat dulu cuplikan pendek dengan audio untuk memeriksa gaya visual, subtitle, dan suara sebelum mengerjakan video lengkap.
 
 ### Q4. Bisakah saya membuat video tanpa naskah yang sudah jadi?
 
@@ -612,31 +717,29 @@ Alat AI tradisional hanya mengubah teks menjadi ilustrasi harfiah. Stickman Vide
 
 ### Q6. Bisakah video ini dimonetisasi di YouTube dan TikTok?
 
-Ya, tentu saja. Salah satu kekhawatiran utama kreator tanpa wajah adalah kebijakan demonetisasi YouTube untuk “Reused Content” atau konten AI minim usaha. Karena Stickman Video Director menulis alur cerita khusus, ritme narasi unik, dan penataan visual orisinal, hasil Anda sepenuhnya orisinal. Ratusan channel berhasil memonetisasi video naratif stickman melalui YouTube Partner Program (YPP).
+Ya, video ini milik Anda untuk dipublikasikan dan dimonetisasi. Salah satu kekhawatiran utama kreator tanpa wajah adalah kebijakan “Reused Content” YouTube. Setiap video mendapat naskah, ritme, dan penataan visualnya sendiri tanpa memakai ulang materi yang sudah ada, dan justru hal inilah yang dinilai oleh kebijakan tersebut. Meski begitu, persetujuan YouTube Partner Program (YPP) atau TikTok Creator Rewards Program tetap diputuskan oleh masing-masing platform berdasarkan channel Anda secara keseluruhan: tambahkan ide dan suara Anda sendiri, unggah secara konsisten, dan ikuti aturan setiap platform tentang konten buatan AI.
 
 ### Q7. Apakah saya perlu bisa coding atau memiliki GPU mahal?
 
-Tidak. Anda tidak memerlukan kartu grafis RTX kelas atas atau pengetahuan pemrograman.
-
-- **Director Mode** digunakan lewat percakapan di asisten AI apa pun yang mendukung Skill.
-- **Autopilot Mode** berjalan di agen coding AI seperti Claude Code, Codex, atau Cursor, menggunakan permintaan sederhana dalam bahasa Inggris. Seluruh proses pembuatan visual yang berat ditangani oleh API cloud ringan atau rendering prosedural, bukan perangkat keras lokal Anda.
+Anda tidak perlu menulis kode sendiri atau membeli GPU kelas atas. Mode A dapat menggunakan platform video online; pada mode B, agen menulis kode dan melakukan rendering secara lokal. Kinerja komputer memengaruhi kecepatan produksi, tetapi bukan faktor penentu.
 
 <!-- readme:contribute -->
 
 <a id="road-to-10000-stars--creator-ecosystem"></a>
 
-## ⭐ Menuju 20,000 Stars dan ekosistem kreator
+## ⭐ Menuju 20,000 Stars
 
-**Setiap Star mendukung rilisan berikutnya!** Bersama-sama, kita membangun studio 100% gratis dan open source untuk membantu kreator solo mengelola channel tanpa tampil di kamera, tanpa langganan SaaS seharga US$ 50/bulan.
+**Setiap Star mendukung rilisan berikutnya!** Bersama-sama, kita membangun studio gratis dan open source untuk membantu kreator solo mengelola channel tanpa tampil di kamera, tanpa langganan SaaS seharga US$ 50/bulan. [Beri Star pada proyek ini](https://github.com/kaomei/stickman-video-director) untuk membantu membuka tahap berikutnya.
 
-- [x] **1,000 Stars**: Director Mode + 5 gaya visual inti telah dirilis
-- [x] **3,000 Stars**: AutoPilot Mode untuk membuat video dalam satu klik telah dirilis
+- [x] **1,000 Stars**: Model Engine + 5 gaya visual inti telah dirilis
+- [x] **3,000 Stars**: Code Engine untuk membuat video dari naskah hingga jadi telah dirilis
 - [x] **6,000 Stars**: Lebih dari 10 gaya visual baru berkualitas tinggi telah dirilis
 - [ ] **🔥 10,000 Stars**:
   - Koleksi 1,000+ prompt naskah YouTube untuk mode A dan B
-  - [Pustaka audio B](skills/directing-stickman-videos/references/b-audio-library.md): 774 SFX/transisi + 31 musik latar + 85 jingle singkat, dengan rekomendasi gaya/adegan B, ekspor offline, lisensi per aset dan atribusi wajib
+  - [Pustaka audio B](skills/directing-stickman-videos/references/b-audio-library.md): sudah tersedia — 774 SFX/transisi, 31 musik latar, dan 85 jingle singkat, berlisensi dan siap dipakai
 - [ ] **20,000 Stars**:
-  - luncurkan Stickman AI Studio — dari ide hingga video siap tayang, serba otomatis
+  - Channel Autopilot — sebutkan niche channel Anda, lalu dapatkan video siap tayang untuk satu minggu, lengkap dengan thumbnail dan judul, sekaligus
+  - Peluncuran Stickman AI Studio — aplikasi desktop open source: tempel naskah, pilih gaya, pratinjau dan sesuaikan setiap adegan di linimasa visual, lalu render. Tanpa terminal
   - Kejutan lainnya menanti — yuk, kita nantikan bersama
 
 <div align="center">
@@ -653,7 +756,7 @@ Tidak. Anda tidak memerlukan kartu grafis RTX kelas atas atau pengetahuan pemrog
 
 ## 🔮 Gaya visual yang direncanakan
 
-Kami sedang melatih mesin khusus baru untuk niche YouTube tanpa tampil di kamera yang paling banyak diminta:
+Kami sedang mengembangkan gaya baru untuk niche YouTube tanpa tampil di kamera yang paling banyak diminta:
 
 - **Sejarah dan legenda ala OverSimplified** — Tokoh sejarah mungil, panah penaklukan, dan peta pertempuran satiris
 - **Pertarungan stickman dan garis kecepatan** — Pertarungan dinamis ala Alan Becker, bela diri, dan frame benturan
@@ -671,10 +774,12 @@ Punya ide gaya atau ingin ditampilkan? Bergabunglah dengan [komunitas Telegram k
 - **Minta gaya**: kirim tautan referensi visual + niche yang ingin Anda bahas.
 - **Tampilkan karya**: sudah membuat video dengan alat ini? Kirim tautannya untuk ditampilkan di README ini dan channel YouTube resmi kami!
 
-🔔 *Ikuti **[@CrazyKaomei](https://x.com/CrazyKaomei)** di X untuk alur produksi video harian, alat otomatisasi, dan SOP pertumbuhan channel.*
+🔔 **Ikuti [@AveryRunsAI](https://x.com/AveryRunsAI) di X untuk tutorial terbaru, alur produksi video, alat otomatisasi, dan tips pertumbuhan channel.**
 
 ## 📄 Lisensi
 
 Proyek ini dirilis dengan [lisensi MIT](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE). Anda boleh menggunakan, mengubah, mendistribusikan, dan memakainya secara komersial tanpa membayar Skill ini. Sertakan pemberitahuan hak cipta dan lisensi saat mendistribusikan proyek atau bagian pentingnya.
+
+Musik, efek suara, dan aset pihak ketiga lainnya tetap tunduk pada lisensi dan persyaratan atribusi masing-masing. Lihat keterangan lisensi aset terkait.
 
 Disediakan “apa adanya”, tanpa jaminan. Lihat ketentuan lengkap di [LICENSE](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE).

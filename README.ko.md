@@ -4,118 +4,167 @@
 
 # 🎬 Stickman Video Director
 
-**어떤 대본이든 얼굴 공개 없는 YouTube 채널을 위한 다양한 그림체의 바이럴 스틱맨 애니메이션 영상으로.**
+**자동화된 스틱맨 애니메이션으로 얼굴 없는 유튜브 채널을 대량 양산하세요.**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-주제, 기사 또는 대본으로 시작하세요. 비주얼, 내레이션, 자막, 효과음을 자동으로 구성해 바로 공개할 수 있는 스틱맨 영상으로 만듭니다.
+**AI 에이전트에게 메시지 한 줄만 보내면, 완성된 스틱맨 영상이 돌아옵니다.**<br>
+대본·내레이션·자막·사운드까지 한 번에 · 검증된 15가지 스타일 · Claude Code, Codex 등 지원
 
-**⚡ 100% 무료 오픈소스. 카메라도 월 $50 구독도 필요 없이, 며칠이 아닌 몇 분 만에 완성하세요.**
+💬 메시지 한 줄 → ✅ 대본과 미리보기 확인 → 🎬 완성 영상
 
-**과학 해설, 다크 심리학, 기술 우화, 화제의 이야기, 스토리텔링 채널**을 위한 비주얼 스타일을 계속 업데이트합니다.
+**복잡한 모션 그래픽 작업 불필요. 매달 50달러의 SaaS 구독료도 제로. 지치지 않고 매일 업로드.**
+
+[빠른 시작](#quick-start) · [쇼케이스](#style-gallery) · [FAQ](#faq) · [로드맵](#road-to-10000-stars--creator-ecosystem) · [커뮤니티](#community)
+
+*⭐ 저장소를 Star하고 다음 스타일 업데이트와 새로운 기능을 가장 먼저 확인하세요.*
 
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>클래식 흑백 스타일</strong><br>
+<b>A1-</b><strong>클래식 흑백 스타일</strong><br>
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="클래식 흑백 스틱맨 애니메이션: 검은 배경과 흰 선으로 전달하는 지식·정보" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>모던 팝 스타일</strong><br>
-<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="모던 팝 스틱맨 애니메이션: 빨간 비니 캐릭터와 테크 조명 연출" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>선사시대 동굴 스타일</strong><br>
-<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="선사시대 동굴 스틱맨 애니메이션: 동굴을 배경으로 한 반전 이야기" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>따뜻한 일상 이야기 스타일</strong><br>
-<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="따뜻한 일상 스틱맨 애니메이션: 다채로운 배경과 공감 가는 순간" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>역사 카툰 스타일</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="역사 카툰 스틱맨 애니메이션: 에도 시대 사무라이 이야기" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>미니멀 라인 아트</strong><br>
+<b>B1-</b><strong>미니멀 라인 아트</strong><br>
 <a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="미니멀 손그림 스틱맨 영상: 생생한 표정, 핵심 문구, 부분 애니메이션" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>Amber Noir</strong><br>
-<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Amber Noir 스틱맨 애니메이션: 따뜻한 조명과 깊은 그림자의 도시 속 주황색 후드티 캐릭터" width="90%"></a>
+<b>A2-</b><strong>모던 팝 스타일</strong><br>
+<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="모던 팝 스틱맨 애니메이션: 빨간 비니 캐릭터와 테크 조명 연출" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>컬러 손그림</strong><br>
+<b>B2-</b><strong>컬러 손그림</strong><br>
 <a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="컬러 손그림 스틱맨 영상: 조용한 침실과 강을 따라 떠가는 생각" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>레트로 TV 스타일</strong><br>
+<b>A3-</b><strong>선사시대 동굴 스타일</strong><br>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="선사시대 동굴 스틱맨 애니메이션: 동굴을 배경으로 한 반전 이야기" width="90%"></a>
+</td>
+<!-- b3:hero:start -->
+<td width="50%" align="center">
+<b>B3-</b><strong>레트로 TV 스타일</strong><br>
 <a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="둥근 흰색 캐릭터로 표현한 새벽 3시 TV 미스터리" width="90%"></a>
 </td>
+<!-- b3:hero:end -->
+</tr>
+<tr>
 <td width="50%" align="center">
-<strong>서바이벌 스릴러</strong><br>
+<b>A4-</b><strong>따뜻한 일상 이야기 스타일</strong><br>
+<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="따뜻한 일상 스틱맨 애니메이션: 다채로운 배경과 공감 가는 순간" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<b>B4-</b><strong>서바이벌 스릴러</strong><br>
 <a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · 서바이벌 스릴러" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:end -->
-<!-- b5:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>캐릭터 해설</strong><br>
+<b>A5-</b><strong>역사 카툰 스타일</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="역사 카툰 스틱맨 애니메이션: 에도 시대 사무라이 이야기" width="90%"></a>
+</td>
+<!-- b5:hero:start -->
+<td width="50%" align="center">
+<b>B5-</b><strong>캐릭터 해설</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="도움 요청의 심리를 설명하는 B5 영상: 애니메이션 진행자와 표정이 풍부한 스틱맨" width="90%"></a>
+</td>
+<!-- b5:hero:end -->
+</tr>
+<tr>
+<td width="50%" align="center">
+<b>A6-</b><strong>Amber Noir</strong><br>
+<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="Amber Noir 스틱맨 애니메이션: 따뜻한 조명과 깊은 그림자의 도시 속 주황색 후드티 캐릭터" width="90%"></a>
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>Dynamic Meme Animation</strong><br>
-<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Dynamic Meme Animation" width="90%"></a>
+<b>B6-</b><strong>Meme Story Animation</strong><br>
+<a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · Meme Story Animation" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
-<!-- b5:hero:end -->
+<tr>
+<!-- a7:hero:start -->
+<td width="50%" align="center">
+<b>A7-</b><strong>러버 호스 애니메이션</strong><br>
+<a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · 러버 호스 애니메이션" width="90%"></a>
+</td>
+<!-- a7:hero:end -->
+<!-- b7:hero:start -->
+<td width="50%" align="center">
+<strong>픽셀 시어터</strong><br>
+<a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · 픽셀 시어터" width="90%"></a>
+</td>
+<!-- b7:hero:end -->
+</tr>
+<tr>
+<!-- a8:hero:start -->
+<td width="50%" align="center">
+<b>A8-</b><strong>지브리풍</strong><br>
+<a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · 지브리풍" width="90%"></a>
+</td>
+<!-- a8:hero:end -->
+<td width="50%" align="center"></td>
+</tr>
 </table>
-
-<div align="center">
-
-**12가지 비주얼 스타일 · 실제 제작 예시 · 무료 오픈소스**
-
-⭐ **프로젝트에 Star를 눌러 다음 스타일과 새 기능 공개를 확인하세요.**
-
-[시작하기](#quick-start) · [스타일·샘플 영상](#style-gallery) · [자주 묻는 질문](#faq) · [로드맵](#road-to-10000-stars--creator-ecosystem) · [커뮤니티](#community)
-
-</div>
 
 <a id="creation-modes"></a>
 
-## 🎬 두 가지 영상 제작 모드
+## 🎬 두 가지 영상 제작 모드: Model Engine vs Code Engine
 
-**모든 쇼트를 직접 제어하고 싶나요? A · Director Mode를 선택하세요. 장면을 직접 조립하지 않고 완성된 영상을 받고 싶나요? B · Autopilot Mode를 선택하세요.** 하나의 프로젝트, 두 가지 워크플로.
+**하나의 스틱맨 디렉터, 두 가지 화면 제작 방식**. A 모드는 영상 생성 모델로 연속적인 장면을 생성하고, B 모드는 코드로 소재를 움직여 레이어 애니메이션을 만듭니다. 두 모드 모두 에이전트가 완성 영상까지 자동으로 제작할 수 있으며, 선택한 스타일의 규격을 엄격하게 따릅니다.
 
-|  | <div align="center">A · Director 모드</div> | <div align="center">B · Autopilot 모드</div> |
-|:---:|:---|:---|
-| **특징** | **AI가 연출을 제안하고, 최종 결정은 직접**: 스토리보드와 프롬프트를 받아 클립 생성과 편집을 조정합니다. | **주제나 요구사항에서 완성 영상까지**: 일러스트, 내레이션, 자막, 부분 애니메이션, 영상 합성을 자동으로 진행합니다. |
-| **길이** | **짧은 영상에 우선 추천**. 30초~3분이 좋은 출발점이며, 구간을 이어 더 긴 콘텐츠도 만들 수 있습니다. | **긴 영상에 우선 추천**. 특히 **10분 이상**의 내레이션 영상에 적합하며, 짧은 영상이나 연속 스토리도 만들 수 있습니다. |
-| **필요한 환경** | Skill 호환 AI 어시스턴트로 기획하고, 선호하는 영상 생성 도구(Google Flow, Runway, Luma, Kling 등)에서 클립을 생성한 뒤 CapCut이나 Premiere로 편집하세요. | **Codex, Claude Code**처럼 파일을 읽고 쓰고, 도구를 호출하고, 명령을 실행할 수 있는 AI 에이전트에서 소재 생성과 로컬 영상 합성을 연결합니다. |
-| **화면 구성** | **구간별 애니메이션 생성**: 인물의 동작, 카메라 연출, 캐릭터 간 상호작용을 중시합니다. | **일러스트 스토리보드＋부분 애니메이션**: 표정, 인물의 반응, 소품 움직임을 내레이션에 맞추고 장면 전환·줌·팬을 함께 사용합니다. 카메라 이동이나 글자 등장만으로는 화면 속 애니메이션으로 인정하지 않습니다. |
-| **결과물** | 연출 기획안, 스토리보드, 구간별 영상 프롬프트, 사운드 디자인. | **내레이션·자막·부분 애니메이션이 포함된 완성 영상 파일**. |
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle"></th>
+<th align="center" valign="middle"><div align="center">A · Model Engine</div></th>
+<th align="center" valign="middle"><div align="center">B · Code Engine</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"><strong>원리</strong></td>
+<td align="left" valign="middle">프롬프트와 스토리보드를 영상 생성 모델에 입력해 유연하게 움직이는 영상 클립을 직접 생성합니다.</td>
+<td align="left" valign="middle">레이어로 분리된 시각 소재를 생성한 뒤, 코드를 작성하고 실행해 애니메이션 구동, 합성, 렌더링을 로컬에서 수행합니다.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>특징</strong></td>
+<td align="left" valign="middle">유연하고 자연스러운 움직임과 영화 같은 조명으로 생동감 있고 역동적인 영상을 만듭니다.</td>
+<td align="left" valign="middle">캐릭터의 일관성을 유지하고 소재를 재사용할 수 있습니다. 타임라인의 템포와 레이아웃을 정밀하게 제어하고, 부분적인 미세 조정도 쉽게 할 수 있습니다.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>추천 대상</strong></td>
+<td align="left" valign="middle">영상 생성 리소스(Google Flow, 저렴한 API 또는 로컬에 직접 구축한 모델 등)를 이용할 수 있고, 시각적 임팩트가 강한 숏폼 콘텐츠를 주로 제작하는 크리에이터.</td>
+<td align="left" valign="middle">Codex나 Claude Code를 구독 중이며, 비싼 영상 모델 크레딧에 추가 비용을 쓰지 않고 남는 코딩 사용 한도를 활용하려는 사용자.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>제작 과정</strong></td>
+<td align="left" valign="middle">대본과 화풍을 확인한 뒤 장면별 프롬프트를 받아 직접 생성합니다. 또는 AI가 내장 브라우저를 조작해 클립 생성, 장면 연결, 자막과 오디오 제작까지 진행하게 할 수 있습니다.</td>
+<td align="left" valign="middle">선택한 화풍의 영상 대본과 20초 샘플을 확인하면, AI가 모든 소재 준비, 코드 작성, 애니메이션 실행, 자막, 오디오 및 로컬 렌더링을 자동으로 처리합니다.</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>결과물</strong></td>
+<td align="left" valign="middle">스토리보드 대본 + 장면별 프롬프트 + (완성 영상 파일)</td>
+<td align="left" valign="middle">레이어별 소재 라이브러리(캐릭터/장면/소품) + 완성 영상 파일</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>비용</strong></td>
+<td align="left" valign="middle">영상 생성 모델의 크레딧/포인트를 사용합니다. 영상이 길어질수록 비용과 재생성 부담이 크게 늘어납니다.</td>
+<td align="left" valign="middle">영상 모델 크레딧이 필요하지 않습니다. 기존 에이전트 사용 한도와 기본 이미지 생성/TTS 도구를 이용해 로컬에서 렌더링합니다.</td>
+</tr>
+</tbody>
+</table>
 
-두 워크플로 모두 간단한 주제, 웹 링크 또는 완성된 대본으로 시작할 수 있습니다. 화면 비율(9:16, 16:9, 1:1), 내레이션 언어, 음성을 자유롭게 선택하세요. 위의 영상 길이는 권장 사항이며 엄격한 제한이 아닙니다.
+아이디어, 글, 웹페이지 링크 또는 완성된 대본만 있으면 제작을 시작할 수 있습니다. 두 모드 모두 짧은 영상과 긴 콘텐츠를 지원하며, 게시 플랫폼에 따라 `16:9` 가로형 또는 `9:16` 세로형을 선택할 수 있습니다. 자막, 내레이션, 배경음악, 효과음은 요구 사항과 스타일 기준에 맞춰 구성합니다.
 
-💡 **빠른 설정 안내**:
-
-- **Director Mode**는 일반적인 대화형 AI 채팅 창에서 사용할 수 있습니다.
-- **Autopilot Mode**는 파일과 터미널에 접근할 수 있는 AI 코딩 에이전트(**Claude Code, OpenAI Codex, Cursor** 등) 안에서 실행되어 렌더링부터 파일 전달까지 전 과정을 자동으로 처리합니다.
+아직 스타일을 고르지 못하셨나요? 아래에서 각 스타일의 자세한 소개와 어울리는 주제, 더 많은 샘플 영상을 확인할 수 있습니다.
 
 <!-- project-sponsor:start -->
 <a id="project-sponsor"></a>
@@ -143,79 +192,80 @@
 
 ## 🧭 시작하기
 
-**시연 영상에 최대한 가까운 결과를 원한다면 Codex를 우선 추천합니다.** 이 프로젝트에 소개한 제 예시 영상은 Codex로 제작하고 테스트했습니다.
+<strong>공개된 샘플에 최대한 가까운 결과를 원한다면, Codex나 Claude Code처럼 프로그래밍 능력이 뛰어난 AI 도구를 우선 사용하는 것을 권장합니다.</strong>
 
-Claude Code, Cursor, Antigravity 등 파일과 터미널에 접근할 수 있는 다른 Agent에도 설치할 수 있습니다. 다만 모델 성능, 도구 설정, 실행 방식에 따라 결과가 달라질 수 있습니다.
+파일 읽기·쓰기와 터미널 실행이 가능한 다른 에이전트에도 설치할 수 있습니다. 다만 모델 성능, 도구 설정, 실행 방식에 따라 최종 결과는 달라질 수 있습니다.
 
-다음 내용을 AI 어시스턴트에게 보내세요:
+### Step 1: Skill 설치
+
+처음 사용할 때 필요한 설정을 먼저 확인하고, 부족한 항목과 설정 방법을 차례로 안내합니다. 다음 내용을 AI 어시스턴트에게 보내세요:
 
 ```text
-이 Skill을 설치해 줘:
+이 Skill을 설치해 주세요:
 https://github.com/kaomei/stickman-video-director
 
-설치가 끝나면 바로 설치된 SKILL.md를 읽고,
-두 모드의 결과물, 필요한 도구, 제작 과정을 쉽게 설명해 줘.
-그대로 따라 말할 수 있는 요청 예시도 알려 줘.
-내가 만들려는 영상에 맞춰 무엇이 부족한지,
-다음에 구체적으로 무엇을 하면 되는지도 안내해 줘.
+설치 후 SKILL.md를 읽고 준비가 되었다고 알려 주세요.
 ```
 
-설치 시간이 초과되면 [설치 문제 해결](skills/directing-stickman-videos/references/installation-troubleshooting.md)(macOS/Linux 및 Windows)을 확인하세요.
+터미널이 더 편하거나 설치 중 시간이 초과되면 [수동 설치 가이드](skills/directing-stickman-videos/references/installation-troubleshooting.md)를 참고할 수 있습니다.
+
+### Step 2: 스타일과 모드를 고르고, 한마디로 제작 시작
+
+「[A 모드](#a-styles)」 또는 「[B 모드](#b-styles)」에서 마음에 드는 스타일을 고른 다음, 아래의 해당 프롬프트를 복사해 자신의 요구 사항에 맞게 바꾸고 AI 어시스턴트에게 보내세요:
 
 <a id="director-start"></a>
 
-### A · Director 모드: 구간별 영상 프롬프트 만들기
-
-설치 후 아래 내용을 AI 어시스턴트에 보내고, 주제만 바꿔 보세요.
+### A · Model Engine
 
 ```text
-Director 모드/A 모드로 아래 주제, 원고 또는 요구사항을
-스틱맨 영상으로 만들어 줘:
-[주제를 적거나 원고를 붙여 넣고, 원하는 내용을 설명해도 돼]
+Model Engine(A 모드)을 사용해 다음 주제/원고를 스틱맨 영상으로 만들어 주세요:
+[주제를 입력하거나, 원고를 붙여 넣거나, 아이디어를 직접 설명]
 
-조건: 가로 16:9, A3 '선사시대 동굴 스타일', 우선 30초.
-먼저 연출 기획안을 보여 주고, 내가 확인한 뒤 구간별 영상 프롬프트를 작성해 줘.
+요구 사항: 가로형 16:9, 스타일 A3「선사시대 동굴 스타일」, 우선 30초.
+
+먼저 이야기 구성, 사운드 방향, 스토리보드 안을 제시해 주세요.
+제가 승인한 후, 장면별로 독립적으로 사용할 수 있는 영상 생성 프롬프트를 제공해 주세요.
 ```
 
-**제작 흐름: 주제와 요구사항 전달 → 이야기 대본 작성 → 필요에 따라 캐릭터 3면도 확인 → 상세 스토리보드 프롬프트 작성 → 직접 클립을 생성하고 편집해 완성**
-
-기획안에는 이야기 구조, 구간별 내레이션, 인물 동작, 카메라 연출, 사운드 디자인이 포함됩니다. 프롬프트를 확인한 뒤 [Google Flow](https://flow.google.com/) 등 영상 생성 도구에 순서대로 입력하고, CapCut 등에서 자막을 넣고 편집합니다.
-
-첫 영상을 만들 때는 [X의 시각적 제작 가이드](https://x.com/CrazyKaomei/status/2102311241046008268)를 따라 해 보세요(단계별 영상 데모가 포함된 스레드).
+- **제작 과정:** 스토리보드 승인 후 직접 생성하거나, 에이전트가 내장 브라우저로 조작하도록 할 수 있습니다. 먼저 저해상도로 테스트하고, 결과가 만족스러우면 제작과 편집을 이어갑니다.
+- **추천 플랫폼:** 샘플과 비슷한 결과를 원한다면 Google Flow를 권장합니다. 처음 제작할 때는 [X 상세 튜토리얼](https://x.com/CrazyKaomei/status/2102311241046008268)을 참고하세요.
 
 <a id="autopilot-start"></a>
 
-### B · Autopilot 모드: 한 줄의 요청에서 롱폼 영상까지
-
-Codex, Claude Code처럼 파일을 다루고 명령을 실행할 수 있는 환경에 설치한 뒤, 이렇게 요청하세요.
+### B · Code Engine
 
 ```text
-Autopilot 모드/B 모드로 아래 주제, 기사, 게시물, 뉴스 또는 구체적인 요구사항을
-YouTube에서 시선을 끌 수 있는 영상으로 만들어 줘:
-[내용이나 링크를 붙여 넣거나, 소개·홍보하고 싶은 내용을 설명해 줘]
+Code Engine(B 모드)을 사용해 다음 주제/글을 흥미로운 스틱맨 영상으로 만들어 주세요:
+[장문, 뉴스, 링크를 붙여 넣거나, 원하는 주제를 설명]
 
-조건: 5~10분, 가로 16:9, B1 '미니멀 라인 아트'. 내레이션, 자막, 효과음을 넣어 줘.
+요구 사항: 가로형 16:9, 길이 8분, 스타일 B1「미니멀 라인 아트」, 내레이션·자막·효과음 포함.
 
-먼저 이미지 생성, 음성 합성, 영상 합성 설정을 확인하고 대본을 보여 줘. 영상과 음성이 포함된 20초 미리보기도 만들어 줘.
-내가 확인하면 화면을 내레이션의 흐름에 맞춰 전체 영상으로 자동 완성해 줘.
-내가 클립을 하나씩 생성하거나 이어 붙이지 않아도 되도록 완성 영상 파일로 전달해 줘.
+먼저 로컬 이미지 생성 및 합성 환경을 확인하고, 전체 대본과 처음 20초의 사운드 포함 샘플을 제시해 주세요.
+승인 후에는 전체 소재 준비, 코드 작성, 로컬 렌더링을 자동으로 완료해 완성 영상을 전달해 주세요.
 ```
 
-**제작 흐름: 주제·내용·요구사항 전달 → 영상 대본 확인 → 영상과 음성이 포함된 20초 미리보기 확인 → 전체 영상 자동 제작 → 완성 영상 받기**
+- **제작 과정:** 대본과 20초 사운드 샘플을 승인하면 에이전트가 선택한 스타일에 맞춰 소재, 애니메이션, 자막과 사운드를 제작하고, 전체 영상을 로컬에서 렌더링해 미리보기를 제공합니다.
+- **부분 수정:** 완성 후 화면이나 소리가 마음에 들지 않으면, 승인한 부분은 유지하고 해당 구간만 AI에게 조정하도록 할 수 있습니다.
 
-AI 어시스턴트가 내용에 맞춰 스토리보드를 설계하고 화면과 내레이션을 생성합니다. 자막과 효과음을 더한 뒤 음성의 흐름에 맞춰 하나의 영상으로 합성합니다. 사용자는 주로 대본과 샘플을 확인하면 되며, 클립마다 직접 생성하거나 조립할 필요가 없습니다.
+### Step 3: 썸네일과 게시용 문구를 한 번에 생성
 
-처음에는 필요한 설정을 확인하고, 무엇이 부족하며 어떻게 준비하면 되는지 단계별로 안내합니다. 화면이나 목소리가 마음에 들지 않으면 해당 부분만 수정하고 이미 확인한 부분은 유지할 수 있습니다.
+완성 영상이 만족스럽다면 [썸네일 & 게시 키트](#thumbnail-publishing-kit)을 이어서 제작할 수 있습니다. 다음 문장을 AI에게 보내세요:
 
-**두 모드 모두 선택할 수 있는 마무리:** 완성된 영상이 만족스러우면 [썸네일 및 게시 키트](#thumbnail-publishing-kit)로 화풍에 맞는 표지와 업로드 문구를 만들거나 여기서 마칠 수 있습니다. 모드를 바꾸거나 다시 설치할 필요는 없습니다.
+```text
+방금 만든 영상의 썸네일과 게시용 문구를 승인한 스타일로 만들어 주세요.
+```
+
+AI가 스타일에 맞는 썸네일 이미지, 영상 제목, 설명, 고정 댓글 문구를 한 번에 생성합니다. 모드를 바꾸거나 다시 설정할 필요가 없습니다.
 
 <a id="style-gallery"></a>
 
 <a id="a-styles"></a>
 
-## 🎨 A · Director 모드 스타일 모음
+## 🎨 A · Model Engine 스타일 모음
 
-A1, A2, A3… 순으로 추가하며, 각 스타일에 맞는 애니메이션 예시를 소개합니다.
+현재 A 모드의 샘플 영상은 [Google Flow](https://flow.google.com/)로 제작했습니다. 다른 영상 생성 플랫폼을 선택해도 됩니다. <strong>에이전트에게 자동 제작을 맡기기 전에 계정에 로그인되어 있고 사용 가능한 크레딧이 있는지 확인하세요.</strong>
+
+A1, A2, A3… 순서로 추가하며, 각 스타일에 해당하는 애니메이션 샘플을 소개합니다.
 
 <a id="a1"></a>
 
@@ -260,7 +310,7 @@ A1, A2, A3… 순으로 추가하며, 각 스타일에 맞는 애니메이션 �
 
 | 예시 1: 「인류 최초의 일자리는 어떻게 생겼을까?」 | 예시 2: 「인류가 처음 불을 발견한 날」 |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="「인류 최초의 일자리는 어떻게 생겼을까?」 애니메이션 미리보기" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="불의 발견을 주제로 만든 커뮤니티 작품" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="「인류 최초의 일자리는 어떻게 생겼을까?」 애니메이션 미리보기" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="불의 발견을 주제로 만든 커뮤니티 작품" width="360"> |
 | 선사시대 이야기 · 직장 풍자 | 불의 발견 · 커뮤니티 작품 |
 
 ---
@@ -318,16 +368,50 @@ A1, A2, A3… 순으로 추가하며, 각 스타일에 맞는 애니메이션 �
 
 <a id="a7"></a>
 
-### A7: 곧 공개…
+### A7: 러버 호스 애니메이션
 
-새로운 특화 Director 스타일을 준비하고 있습니다. [프로젝트에 Star를 누르고](#road-to-10000-stars--creator-ecosystem) 앞으로의 업데이트를 확인해 주세요!
+가는 선의 스틱맨이 정교한 복고풍 손그림 배경에서 움직입니다. 탄력 있는 팔다리와 풍부한 표정, 이어지는 연기로 일상의 작은 사고를 극장 애니메이션 같은 코미디로 풀어냅니다. 세이지 그린과 아이보리에 바랜 붉은색을 조금 더해 시대감을 살립니다.
+
+- **화면의 매력**: 흰 원형 얼굴, 굽은 머리카락 두 가닥, 가는 선의 몸을 유지합니다. 잉크 윤곽, 무광 붓질, 소품과의 상호작용, 표현력 있는 장면 전환을 결합합니다.
+- **잘 어울리는 이야기**: 부조리 코미디, 일상의 우화, 반전 이야기, 음악에 맞춘 단편.
+
+| 예시 1: 구름에게 쫓기다 | 예시 2: 비 오는 거리 |
+|:---:|:---:|
+| <a href="assets/readme/style-7-rubber-hose.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · 러버 호스 애니메이션 · 예시 1: 구름에게 쫓기다" width="360"></a> | <a href="assets/readme/style-7-rubber-hose-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose-2.gif" alt="A7 · 러버 호스 애니메이션 · 예시 2: 비 오는 거리" width="360"></a> |
+| 복고 손그림 거리 · 탄력 있는 캐릭터 연기 | 비 오는 분위기 · 소품 상호작용과 표정 컷 |
+
+---
+
+<a id="a8"></a>
+
+### A8: 지브리풍
+
+짙푸른 하늘과 바다, 높이 솟은 뭉게구름, 햇볕에 데워진 돌담이 밝은 손그림 세계를 펼쳐 보입니다. 바닷바람이 빨래를 흔들고 길가의 차양을 들추더니, 배달원의 어깨 가방에서 편지 한 통을 날려 버립니다. 이런 일상의 작은 순간에서 모험이 시작됩니다.
+
+- **시각적 특징**: 섬세한 과슈 배경과 선명한 색면, 햇빛이 만드는 또렷한 그림자가 셀 애니메이션처럼 평면적으로 채색한 인물을 돋보이게 합니다. 스틱맨은 단순한 둥근 얼굴에 눈은 점으로, 팔다리는 가는 선으로 그립니다.
+- **추천 소재**: 여행 이야기, 일상의 작은 모험, 일터 이야기, 상상력을 더한 생활 우화.
+
+| 샘플 1: 산속 공방 | 샘플 2: 해안가의 배달원 |
+|:---:|:---:|
+| <a href="assets/readme/style-8-graphic-novel-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel-2.gif" alt="A8 · 지브리풍 · 샘플 1: 산속 공방" width="360"></a> | <a href="assets/readme/style-8-graphic-novel.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · 지브리풍 · 샘플 2: 해안가의 배달원" width="360"></a> |
+| 넓은 산 풍경 · 바람과 밧줄 당기기 | 손으로 그린 해안 거리 · 자전거와 편지 잡기 |
+
+---
+
+<a id="a9"></a>
+
+### A9: 곧 공개…
+
+새로운 Model Engine 특화 스타일을 준비하고 있습니다. [프로젝트에 Star를 누르고](#road-to-10000-stars--creator-ecosystem) 앞으로의 업데이트를 확인해 주세요!
 
 
 <a id="b-styles"></a>
 
-## 🤖 B · Autopilot 모드 스타일 모음
+## 🤖 B · Code Engine 스타일 모음
 
-B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보드와 부분 애니메이션으로 완성한 영상을 소개합니다. A 시리즈와는 별도로 관리합니다.
+현재 B 모드의 샘플 영상은 모두 Codex로 제작했습니다. 내장된 <strong><code>gpt-image-2</code></strong> 모델로 화면 소재를 생성한 뒤, 코드로 레이어 애니메이션을 구동하고 로컬에서 영상을 렌더링합니다. 다른 에이전트에게 자동 제작을 맡기기 전에 <strong>파일 읽기·쓰기와 터미널 실행이 가능하고 필요한 도구 설정이 완료되었는지 확인하세요.</strong>
+
+B1, B2, B3… 순서로 추가하며, 각 스타일에 해당하는 완성 영상 샘플을 소개합니다. 예시 설명에 나오는 Bodi, Fola, Brian, Claire, The Pharaoh 3 등은 해당 예시에 사용한 TTS 음성 이름이며, 원하는 음성을 자유롭게 선택할 수 있습니다.
 
 <a id="b1"></a>
 
@@ -446,9 +530,9 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 좋아하는 아바타를 채널의 진행자로 만들어 보세요. 유명 캐릭터를 사용하려면 허가가 필요합니다. 화면 구석의 진행자가 이야기를 이끌고, 왼쪽의 스틱맨은 그 내용을 작은 상황극으로 보여줍니다. 청구서에 끌려가고 압박감에 납작해지는 모습처럼, 추상적인 개념도 웃음과 기억에 남는 장면으로 바뀝니다.
 
-- **시각적 매력**: 따뜻한 종이 질감, 개성 있는 진행자, 검정과 빨강의 강조 글자. 과장된 무게감과 반동, 소품 변형으로 설명을 시각적 비유로 바꿉니다.
-- **사운드 분위기**: 명료한 내레이션을 중심으로 입 모양, 표정, 자막이 음성을 따라갑니다. 효과음은 동작의 핵심 순간에 맞추고, 잔잔한 음악은 목소리를 가리지 않습니다.
-- **추천 콘텐츠**: 지식 해설, 일상 심리, 생활 속 관찰, 대중문화, 재치 있는 논평.
+- **화면의 매력**: 따뜻한 종이 질감, 개성 있는 진행자, 검정과 빨강의 강조 글자. 과장된 무게감과 반동, 소품 변형으로 설명을 시각적 비유로 바꿉니다.
+- **소리의 설계**: 명료한 내레이션을 중심으로 입 모양, 표정, 자막이 음성을 따라갑니다. 효과음은 동작의 핵심 순간에 맞추고, 잔잔한 음악은 목소리를 가리지 않습니다.
+- **잘 어울리는 이야기**: 지식 해설, 일상 심리, 생활 속 관찰, 대중문화, 재치 있는 논평.
 
 <table width="100%">
   <tr>
@@ -472,22 +556,22 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 <!-- b6:section:start -->
 <a id="b6"></a>
 
-### B6: Dynamic Meme Animation
+### B6: Meme Story Animation
 
-과장된 밈 표정, 자유로운 손그림 선, 부드러운 색으로 기묘한 이야기를 생동감 있는 짧은 애니메이션으로 만듭니다. 넓은 장면은 인물과 소품, 카메라가 움직일 공간을 제공합니다.
+과장된 밈 표정, 자유로운 손그림 선, 부드러운 색으로 기묘한 이야기를 생동감 있는 짧은 애니메이션으로 만듭니다. 넓은 장면은 인물과 소품, 카메라가 움직일 공간을 제공합니다. 이 스타일은 YouTube의 [@RicksClips3000](https://www.youtube.com/@RicksClips3000)(**구독자 약 18만 명**)에서 영감을 받았습니다.
 
-- **화면**: 굵기에 변화가 있는 잉크 선, 무광 채색과 부드러운 빛으로 머리·몸·배경의 손그림 질감을 통일하며, **세로형에서 효과가 더 좋습니다**.
+- **화면의 매력**: 굵기에 변화가 있는 잉크 선, 무광 채색과 부드러운 빛으로 머리·몸·배경의 손그림 질감을 통일하며, **세로형에서 효과가 더 좋습니다**.
 - **움직임**: 가로 추적, 전경과 배경의 시차, 소품 전달과 반응 클로즈업을 이야기에 맞춰 연결하고 동작과 웃음을 읽을 여유를 둡니다.
-- **추천 소재**: 역사의 기이한 사건, 사기 이야기, 부조리 코미디와 반전 단편.
+- **잘 어울리는 이야기**: 역사의 기이한 사건, 사기 이야기, 부조리 코미디와 반전 단편.
 
 <table width="100%">
   <tr>
-    <th width="50%" align="center">샘플 1: 에펠탑을 판 남자</th>
-    <th width="50%" align="center">샘플 2: 1990년대 홍콩 · 파인애플번과 오락실</th>
+    <th width="50%" align="center">예시 1: 에펠탑을 판 남자</th>
+    <th width="50%" align="center">예시 2: 1990년대 홍콩 · 파인애플번과 오락실</th>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="샘플 1: 에펠탑을 판 남자" width="360"></a></td>
-    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="샘플 2: 1990년대 홍콩 · 파인애플번과 오락실" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-eiffel-16x9.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="예시 1: 에펠탑을 판 남자" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b6-dynamic-meme-hong-kong-v90-20s.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-hong-kong-v90-20s.gif" alt="예시 2: 1990년대 홍콩 · 파인애플번과 오락실" width="360"></a></td>
   </tr>
   <tr>
     <td align="center">과장된 표정 · 손그림 캐릭터 애니메이션 · 반전 있는 이야기</td>
@@ -499,11 +583,39 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 ---
 
+<!-- b7:section:start -->
 <a id="b7"></a>
 
-### B7: 곧 공개…
+### B7: 픽셀 시어터
 
-새로운 Autopilot 스타일과 코드 애니메이션을 준비하고 있습니다. [프로젝트에 Star를 누르고](#road-to-10000-stars--creator-ecosystem) 앞으로의 업데이트를 확인해 주세요!
+작은 픽셀로 펼치는 뜻밖의 이야기. 하얀 스틱맨이 망설이고, 버튼을 누르고, 기회를 놓칩니다. “상관없어”라는 한마디가 게임 같은 세상을 바꿔 놓을 수도 있습니다.
+
+- **화면의 매력**: 선명한 픽셀, 표정이 살아 있는 하얀 캐릭터, 장면마다 달라지는 색감. 흐릿한 확대나 매끈한 벡터로 픽셀 아트를 흉내 내지 않습니다.
+- **움직임**: 캐릭터·소품·배경이 함께 이야기를 이끕니다. 결말에는 짧은 문장, 픽셀 타자음, 작은 움직임, 은은하게 깜빡이는 글자와 음악으로 여운을 남깁니다.
+- **잘 어울리는 이야기**: 선택에 따라 달라지는 이야기, 아이러니한 인생 교훈, 블랙 코미디, 게임 감성의 따뜻한 우화.
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">예시 1: 계속 “상관없어”라고 말하면 어떻게 될까?</th>
+    <th width="50%" align="center">예시 2: 인생을 빨리 감지 마세요</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="예시 1: 계속 “상관없어”라고 말하면 어떻게 될까?" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-fast-forward-excerpt.gif" alt="예시 2: 인생을 빨리 감지 마세요" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">픽셀 캐릭터 애니메이션 · 게임 감성 음악과 효과음</td>
+    <td align="center">Brian 내레이션 · 이야기 맞춤 효과음 · 타이핑 문구로 여운을 남기는 엔딩</td>
+  </tr>
+</table>
+
+<!-- b7:section:end -->
+
+<a id="b8"></a>
+
+### B8: 곧 공개…
+
+새로운 Code Engine 스타일과 코드 애니메이션을 준비하고 있습니다. [프로젝트에 Star를 누르고](#road-to-10000-stars--creator-ecosystem) 앞으로의 업데이트를 확인해 주세요!
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -512,7 +624,7 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 **아무리 좋은 영상도 먼저 클릭을 받아야 합니다.** 애니메이션을 완성한 뒤 같은 워크플로에서 화풍에 맞는 썸네일, 높은 클릭률을 노리는 제목, 시청자 참여를 유도하는 훅까지 준비하세요.
 
-**Director Mode와 Autopilot Mode** 모두를 위한 통합 마무리 패키지입니다. 영상에서 승인한 캐릭터와 화풍에 맞춰 시각적 훅을 만들고, 바로 게시할 수 있는 YouTube 메타데이터를 함께 제공합니다.
+**Model Engine과 Code Engine** 모두를 위한 통합 마무리 패키지입니다. 영상에서 승인한 캐릭터와 화풍에 맞춰 시각적 훅을 만들고, 바로 게시할 수 있는 YouTube 메타데이터를 함께 제공합니다.
 
 <table width="100%">
   <tr>
@@ -542,7 +654,7 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 *모든 썸네일 콘셉트는 검증된 YouTube 패키징 심리학을 바탕으로 설계합니다. 강렬한 시각적 모순, 명확한 실루엣, 모바일에서도 읽기 쉬운 타이포그래피를 활용합니다.*
 
-### 키트 구성：
+### 키트 구성:
 
 - **썸네일 이미지**: 승인된 캐릭터, 화풍, 색상, 핵심 갈등에 맞춘 가로 16:9 표지 1장. 사용 가능한 이미지 도구와 필요한 비용 승인이 있으면 이미지를 직접 생성합니다.
 - **고클릭률 제목 5종**: 검색 의도, 호기심을 자극하는 정보 격차, 폭넓은 시청자 매력을 고려합니다.
@@ -550,9 +662,9 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 - **고정 댓글 훅**: 영상과 관련된 자연스러운 대화를 이끄는 질문 1개입니다.
 - **게시 전 체크리스트**: 모바일 안전 영역, 대비, 내용의 정확성, 소재 권리 확인 상태를 점검합니다. Content-ID 통과나 수익화 자격은 보장하지 않습니다.
 
-### 실행 방법：
+### 실행 방법:
 
-최종 영상에 만족한다고 확인하면 어시스턴트가 이 선택형 마무리 팩을 제안합니다. 동의하면 계속하고, 건너뛰어도 영상 전달은 늦어지지 않습니다. 프롬프트를 복사할 필요가 없으며 직접 요청할 수도 있습니다：
+최종 영상에 만족한다고 확인하면 어시스턴트가 이 선택형 마무리 팩을 제안합니다. 동의하면 계속하고, 건너뛰어도 영상 전달은 늦어지지 않습니다. 프롬프트를 복사할 필요가 없으며 직접 요청할 수도 있습니다:
 
 ```text
 이 영상의 썸네일 & 게시 키트를 생성해 주세요:
@@ -575,21 +687,21 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 ### Q1. 정말 100% 무료인가요? 숨겨진 비용이 있나요?
 
-네. Stickman Video Director는 MIT 라이선스의 100% 무료 오픈소스 프로젝트입니다. 개인 작업과 상업 프로젝트에 자유롭게 사용할 수 있습니다. 월 $30–$60를 청구하는 독점 SaaS 플랫폼과 달리 이 프로젝트에는 구독료가 없습니다. 연결할 모델에 따라 Google Gemini, Claude, ElevenLabs 같은 외부 API 사용료만 직접 지불하면 됩니다.
+네, Skill 자체는 무료입니다. MIT 라이선스의 오픈소스로 개인 작업과 상업 프로젝트에 모두 사용할 수 있으며, 월 $30–$60의 SaaS와 달리 구독료가 없습니다. 숨겨진 비용은 없지만, 연결하는 서비스에는 각각 요금이 있습니다. AI 에이전트 요금제(Codex, Claude Code 등), 이미지·음성용 외부 API 사용료(Google Gemini, ElevenLabs 등), 그리고 Model Engine(A)에서 Google Flow 같은 플랫폼으로 영상을 생성할 때 드는 크레딧입니다.
 
 <!-- readme:platforms -->
 
 ### Q2. 캐릭터의 일관성은 어떻게 유지하나요?
 
-**B · 전자동 모드**: 코드 기반 제작 워크플로입니다. 영상 제작 전에 캐릭터 이미지 소재를 먼저 생성하고 여러 장면에서 재사용하므로, 캐릭터의 외형을 비교적 안정적으로 유지할 수 있습니다.
+**B · Code Engine**: 코드 기반 제작 워크플로입니다. 영상 제작 전에 캐릭터 이미지 소재를 먼저 생성하고 여러 장면에서 재사용하므로, 캐릭터의 외형을 비교적 안정적으로 유지할 수 있습니다.
 
-**A · 감독 모드**: 주로 텍스트로 동영상을 생성합니다. 헤어스타일이나 의상 등 캐릭터의 특징이 복잡해 글만으로 일관되게 재현하기 어렵다면, 스틱맨 캐릭터 참고 이미지를 한 장 추가하고 이후 클립에서도 계속 사용하면 결과가 더 안정적입니다.
+**A · Model Engine**: 주로 텍스트로 동영상을 생성합니다. 헤어스타일이나 의상 등 캐릭터의 특징이 복잡해 글만으로 일관되게 재현하기 어렵다면, 스틱맨 캐릭터 참고 이미지를 한 장 추가하고 이후 클립에서도 계속 사용하면 결과가 더 안정적입니다.
 
-### Q3. 어떤 도구를 사용해야 하나요? 특정 이미지 생성 모델이 필요한가요?
+### Q3. 어떤 도구를 추천하나요? 특정 이미지 생성 모델을 써야 하나요?
 
-**시연 영상에 최대한 가까운 결과를 원한다면 Codex를 추천합니다.** B 모드의 시연 영상은 제가 Codex에서 제작하고 테스트했으며, 직접 코드를 작성할 필요는 없습니다. 다른 Agent에도 Skill을 설치할 수 있지만 모델, 도구 설정, 실행 방식에 따라 결과가 달라질 수 있습니다.
+데모와 비슷한 결과를 원한다면 **A 모드에서는 Google Flow로 클립을 생성하고, B 모드에서는 Codex로 완성본을 제작하는 것을 추천합니다.** B 모드 데모는 모두 Codex로 제작했습니다. 원하는 결과를 일상적인 말로 설명하면 에이전트가 코드를 작성하고 로컬에서 영상을 렌더링합니다.
 
-제 제작 예시는 GPT 내장 이미지 모델을 사용하며, 별도 이미지 생성 API는 설정하지 않았습니다. 다른 에이전트에서는 해당 환경에서 사용할 수 있는 이미지 도구를 쓰면 됩니다. B5의 실존 인물이나 복잡한 캐릭터는 생성하거나 확인한 이미지 소재를 사용해야 하며, 코드로 그린 대체 얼굴은 허용하지 않습니다. 음성 표기는 예시의 출처일 뿐 특정 서비스를 요구하지 않습니다. 필요하면 에이전트에게 원하는 서비스를 설정하도록 요청하고, 짧은 샘플을 확인한 뒤 전체 영상을 제작하세요. 스타일 프리셋은 기본값이지 제한이 아닙니다. 글꼴, 텍스트 효과, 영상 언어를 바꾸고 싶다면 에이전트에게 요청해 레이아웃을 맞출 수 있습니다.
+**이미지 생성 모델은 자유롭게 선택할 수 있습니다.** B 모드 데모의 이미지 소재는 Codex에 내장된 이미지 생성 도구로 제작했으므로 별도의 이미지 생성 API 설정이 필요 없습니다. Claude Code처럼 파일을 읽고 쓰고 터미널 명령을 실행할 수 있는 에이전트에 원하는 이미지 생성 및 내레이션 도구를 연결해도 됩니다. 먼저 소리가 포함된 짧은 샘플로 화면 스타일, 자막, 사운드를 확인한 뒤 본편을 제작하세요.
 
 ### Q4. 미리 작성한 대본이 없어도 영상을 만들 수 있나요?
 
@@ -605,31 +717,29 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 ### Q6. 이 영상으로 YouTube와 TikTok에서 수익을 낼 수 있나요?
 
-네, 가능합니다. 얼굴을 드러내지 않는 크리에이터가 걱정하는 부분은 YouTube의 “Reused Content”나 저노력 AI 콘텐츠에 대한 수익 창출 중단 정책입니다. Stickman Video Director는 맞춤형 이야기 구조, 고유한 서사 리듬, 독창적인 시각 연출을 작성하므로 결과물은 완전히 독창적입니다. 수백 개의 채널이 YouTube Partner Program(YPP)을 통해 스틱맨 서사 영상으로 수익을 내고 있습니다.
+네, 영상은 직접 게시하고 수익화할 수 있습니다. 얼굴을 드러내지 않는 크리에이터가 걱정하는 부분은 YouTube의 “Reused Content” 정책입니다. 이 프로젝트는 영상마다 대본, 서사 리듬, 시각 연출을 새로 만들고 소재를 재사용하지 않으며, 이는 재사용 콘텐츠를 판단할 때 중요한 부분입니다. 다만 YouTube Partner Program(YPP)이나 TikTok Creator Rewards Program 승인 여부는 각 플랫폼이 채널 전체를 보고 결정합니다. 자신만의 관점과 목소리를 더하고, 꾸준히 업로드하며, AI 생성 콘텐츠에 관한 각 플랫폼의 규정을 따르세요.
 
 ### Q7. 프로그래밍 지식이나 비싼 GPU가 필요한가요?
 
-아니요. 고사양 RTX 그래픽 카드나 코딩 지식이 필요하지 않습니다.
-
-- **Director Mode**는 Skill을 지원하는 AI 어시스턴트에서 대화로 사용할 수 있습니다.
-- **Autopilot Mode**는 Claude Code, Codex, Cursor 같은 AI 코딩 에이전트에서 간단한 영어 요청으로 실행됩니다. 무거운 비주얼 생성 작업은 로컬 하드웨어가 아닌 가벼운 클라우드 API나 절차적 렌더링으로 처리됩니다.
+직접 코드를 작성하거나 고급 GPU를 구매할 필요는 없습니다. A 모드는 온라인 영상 플랫폼을 이용할 수 있으며, B 모드는 에이전트가 코드를 작성하고 로컬에서 렌더링합니다. 컴퓨터 성능이 제작 속도에 영향을 주지만, 결정적인 요인은 아닙니다.
 
 <!-- readme:contribute -->
 
 <a id="road-to-10000-stars--creator-ecosystem"></a>
 
-## ⭐ 20,000 Stars를 향한 여정과 크리에이터 생태계
+## ⭐ 20,000 Stars를 향한 여정
 
-**Star 하나하나가 다음 업데이트의 원동력입니다!** 월 50달러의 SaaS 구독 없이도 1인 크리에이터가 얼굴을 공개하지 않는 채널을 운영할 수 있도록, 100% 무료 오픈 소스 스튜디오를 함께 만들고 있습니다.
+**Star 하나하나가 다음 업데이트의 원동력입니다!** 월 50달러의 SaaS 구독 없이도 1인 크리에이터가 얼굴을 공개하지 않는 채널을 운영할 수 있도록, 무료 오픈 소스 스튜디오를 함께 만들고 있습니다. [프로젝트에 Star를 눌러](https://github.com/kaomei/stickman-video-director) 다음 마일스톤을 함께 열어 주세요.
 
-- [x] **1,000 Stars**: Director 모드 + 5가지 핵심 스타일 출시
-- [x] **3,000 Stars**: 클릭 한 번으로 영상을 생성하는 AutoPilot 모드 출시
+- [x] **1,000 Stars**: Model Engine + 5가지 핵심 스타일 출시
+- [x] **3,000 Stars**: 대본부터 완성 영상까지 자동으로 만드는 Code Engine 출시
 - [x] **6,000 Stars**: 10가지 이상의 고품질 신규 스타일 출시 완료
 - [ ] **🔥 10,000 Stars**:
   - A/B 모드 공용 YouTube 대본 프롬프트 1,000개 이상
-  - [B 오디오 라이브러리](skills/directing-stickman-videos/references/b-audio-library.md): 효과음/전환음 774개 + 배경음악 31곡 + 짧은 징글 85개. B 스타일·장면별 추천, 오프라인 내보내기, 개별 라이선스와 필수 크레딧 포함
+  - [B 오디오 라이브러리](skills/directing-stickman-videos/references/b-audio-library.md): 이미 사용 가능. 효과음/전환음 774개, 배경음악 31곡, 짧은 징글 85개를 라이선스와 함께 바로 쓸 수 있습니다
 - [ ] **20,000 Stars**:
-  - Stickman AI Studio 출시 — 아이디어부터 완성된 영상까지, 전 과정을 자동으로
+  - Channel Autopilot — 채널 주제만 알려 주면 썸네일과 제목까지 갖춘 게시용 영상 일주일 치를 한 번에 제작
+  - Stickman AI Studio 출시 — 오픈소스 데스크톱 앱: 대본을 붙여 넣고 스타일을 고른 뒤, 비주얼 타임라인에서 장면마다 미리 보고 조정해 렌더링. 터미널 불필요
   - 더 많은 놀라움, 함께 기대해요~
 
 <div align="center">
@@ -646,7 +756,7 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 
 ## 🔮 추가 예정 스타일
 
-얼굴을 공개하지 않는 YouTube 채널에서 가장 많이 요청되는 분야를 위한 새로운 전용 엔진을 훈련하고 있습니다:
+얼굴을 공개하지 않는 YouTube 채널에서 가장 많이 요청되는 분야를 위한 새로운 스타일을 개발하고 있습니다:
 
 - **OverSimplified식 역사와 전설** — 작은 역사 인물, 정복 화살표, 풍자적인 전투 지도
 - **스틱맨 격투와 속도선** — Alan Becker식 역동적인 전투, 무술, 임팩트 프레임
@@ -664,10 +774,12 @@ B1, B2, B3… 순으로 추가하며, 각 스타일의 일러스트 스토리보
 - **스타일 요청**: 시각적 참고 링크 + 다루고 싶은 분야를 보내 주세요.
 - **작품 소개**: 이 도구로 영상을 만드셨나요? 링크를 보내 주시면 이 README와 공식 YouTube 채널에서 소개할 수 있습니다!
 
-🔔 *X에서 **[@CrazyKaomei](https://x.com/CrazyKaomei)** 를 팔로우하고 매일 영상 제작 워크플로, 자동화 도구, 채널 성장 SOP를 확인하세요.*
+🔔 **X에서 [@AveryRunsAI](https://x.com/AveryRunsAI)를 팔로우하고 최신 튜토리얼, 영상 제작 워크플로, 자동화 도구, 채널 성장 팁을 확인하세요.**
 
 ## 📄 라이선스
 
 [MIT License](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE)로 공개합니다. 무료 사용, 수정, 상업적 이용, 재배포가 가능합니다. 프로젝트 또는 주요 부분을 배포할 때는 저작권 표시와 라이선스 고지를 유지해 주세요.
+
+타사 음악, 효과음 및 기타 소재에는 각 소재의 라이선스와 출처 표기 요건이 적용됩니다. 해당 소재의 안내를 확인해 주세요.
 
 프로젝트는 어떠한 보증 없이 현 상태로 제공됩니다. 전체 조건은 [LICENSE](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE)를 확인해 주세요.

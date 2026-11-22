@@ -4,118 +4,167 @@
 
 # 🎬 Stickman Video Director
 
-**将任何脚本变成适合不露脸 YouTube 频道的多画风爆款火柴人动画视频。**
+**用全自动火柴人动画，规模化量产你的无人出镜频道。**
 
 [![GitHub Stars](https://img.shields.io/github/stars/kaomei/stickman-video-director?style=flat-square)](https://github.com/kaomei/stickman-video-director/stargazers)
 ![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)
 
-从一个话题、一篇文章或一份脚本开始，自动编排画面、配音、字幕与音效，制作可直接发布的火柴人视频。
+**发一句话给 AI Agent，拿回一条完整的火柴人视频。**<br>
+脚本、配音、字幕与音效全包 · 15 款实操验证的画风 · 支持 Claude Code、Codex 等
 
-**⚡ 100% 免费开源。无需出镜，无需每月 $50 的订阅，几分钟就能完成，不必等上几天。**
+💬 发一句话 → ✅ 确认脚本和预览 → 🎬 拿到成片
 
-画风持续更新，适用于 **科学科普、暗黑心理学、科技寓言、热门奇闻与故事类频道。**
+**告别繁琐动效手搓，不交每月几十刀的软件订阅税。日更内容，轻松无压力。**
+
+[快速上手](#quick-start) · [样片展厅](#style-gallery) · [常见问题](#faq) · [路线图](#road-to-10000-stars--creator-ecosystem) · [交流社区](#community)
+
+*⭐ 欢迎点亮 Star，第一时间解锁最新画风与功能更新！*
 
 </div>
 
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-<strong>经典黑白风</strong><br>
+<b>A1-</b><strong>经典黑白风</strong><br>
 <a href="#a1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/dark-theme-demo.gif" alt="经典黑白风火柴人动画：黑底白线、动态科普" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>现代潮酷风</strong><br>
-<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="现代潮酷风火柴人动画：红帽角色、科技光效" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>史前洞穴风</strong><br>
-<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="史前洞穴风火柴人动画：洞穴故事、反转短片" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>治愈故事风</strong><br>
-<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风火柴人动画：彩色场景、生活共鸣" width="90%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<strong>历史卡通风</strong><br>
-<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通风火柴人动画：江户日本的武士故事" width="90%"></a>
-</td>
-<td width="50%" align="center">
-<strong>极简线稿风</strong><br>
+<b>B1-</b><strong>极简线稿风</strong><br>
 <a href="#b1"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="极简线稿风火柴人视频：生动角色、重点文字与微动画" width="90%"></a>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<strong>暖金暗影风</strong><br>
-<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="暖金暗影风火柴人动画：暖光与深邃暗影中的城市，主角身穿橙色连帽衫" width="90%"></a>
+<b>A2-</b><strong>现代潮酷风</strong><br>
+<a href="#a2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-2a-demo.gif" alt="现代潮酷风火柴人动画：红帽角色、科技光效" width="90%"></a>
 </td>
 <td width="50%" align="center">
-<strong>彩色手绘风</strong><br>
+<b>B2-</b><strong>彩色手绘风</strong><br>
 <a href="#b2"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="彩色手绘风：安静的卧室与沿河漂走的念头" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>复古电视风</strong><br>
+<b>A3-</b><strong>史前洞穴风</strong><br>
+<a href="#a3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="史前洞穴风火柴人动画：洞穴故事、反转短片" width="90%"></a>
+</td>
+<!-- b3:hero:start -->
+<td width="50%" align="center">
+<b>B3-</b><strong>复古电视风</strong><br>
 <a href="#b3"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="复古电视风凌晨三点电视悬疑短片，圆润白色角色" width="90%"></a>
 </td>
+<!-- b3:hero:end -->
+</tr>
+<tr>
 <td width="50%" align="center">
-<strong>求生短剧风</strong><br>
+<b>A4-</b><strong>治愈故事风</strong><br>
+<a href="#a4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风火柴人动画：彩色场景、生活共鸣" width="90%"></a>
+</td>
+<td width="50%" align="center">
+<b>B4-</b><strong>求生短剧风</strong><br>
 <a href="#b4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b4-dispatch.gif" alt="B4 · 求生短剧风" width="90%"></a>
 </td>
 </tr>
-<!-- b3:hero:end -->
-<!-- b5:hero:start -->
 <tr>
 <td width="50%" align="center">
-<strong>角色解说风</strong><br>
+<b>A5-</b><strong>历史卡通风</strong><br>
+<a href="#style-5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan-hero.gif" alt="历史卡通风火柴人动画：江户日本的武士故事" width="90%"></a>
+</td>
+<!-- b5:hero:start -->
+<td width="50%" align="center">
+<b>B5-</b><strong>角色解说风</strong><br>
 <a href="#b5"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@e8e3ed7d67b15f2feac4daf021dc17a55af9e606/assets/readme/previews/b5-character-explainer.gif" alt="B5 角色解说：为什么不愿开口求助，个性主讲人与火柴人小剧场" width="90%"></a>
+</td>
+<!-- b5:hero:end -->
+</tr>
+<tr>
+<td width="50%" align="center">
+<b>A6-</b><strong>暖金暗影风</strong><br>
+<a href="#a6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="暖金暗影风火柴人动画：暖光与深邃暗影中的城市，主角身穿橙色连帽衫" width="90%"></a>
 </td>
 <!-- b6:hero:start -->
 <td width="50%" align="center">
-<strong>动感 Meme 风</strong><br>
+<b>B6-</b><strong>动感 Meme 风</strong><br>
 <a href="#b6"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@7d611fb27f103aebc38a656d29edc1b1181cbd62/assets/readme/previews/b6-dynamic-meme-eiffel-16x9.gif" alt="B6 · 动感 Meme 风" width="90%"></a>
 </td>
 <!-- b6:hero:end -->
 </tr>
-<!-- b5:hero:end -->
+<tr>
+<!-- a7:hero:start -->
+<td width="50%" align="center">
+<b>A7-</b><strong>橡皮管动画风</strong><br>
+<a href="#a7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · 橡皮管动画风" width="90%"></a>
+</td>
+<!-- a7:hero:end -->
+<!-- b7:hero:start -->
+<td width="50%" align="center">
+<strong>像素剧场风</strong><br>
+<a href="#b7"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="B7 · 像素剧场风" width="90%"></a>
+</td>
+<!-- b7:hero:end -->
+</tr>
+<tr>
+<!-- a8:hero:start -->
+<td width="50%" align="center">
+<b>A8-</b><strong>吉卜力画风</strong><br>
+<a href="#a8"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · 吉卜力画风" width="90%"></a>
+</td>
+<!-- a8:hero:end -->
+<td width="50%" align="center"></td>
+</tr>
 </table>
-
-<div align="center">
-
-**12 种画风 · 实测样片 · 免费开源**
-
-⭐ **为项目点个 Star，及时关注下一批画风和新功能解锁。**
-
-[开始使用](#quick-start) · [画风与样片](#style-gallery) · [常见问题](#faq) · [路线图](#road-to-10000-stars--creator-ecosystem) · [加入社区](#community)
-
-</div>
 
 <a id="creation-modes"></a>
 
-## 🎬 两种视频制作模式
+## 🎬 两种视频制作模式：Model Engine vs Code Engine
 
-**想掌控每个镜头？选择 A · 导演模式。想拿到完整视频，不想自己拼接场景？选择 B · 全自动模式。** 一个项目，两种工作流。
+**同一个火柴人导演，两种画面制作路线**：A 模式用视频模型生成连贯镜头，B 模式用代码驱动素材做分层动画。两者均支持 Agent 全自动制作到成片，并严格按对应画风的规范交付。
 
-|  | <div align="center">A · 导演模式</div> | <div align="center">B · 全自动模式</div> |
-|:---:|:---|:---|
-| **特点** | **你来掌镜，AI 做导演**：生成分镜与提示词，由你控制片段生成和剪辑。 | **给出话题或需求，直接拿成片**：自动完成插画、配音、字幕、微动画与视频合成。 |
-| **时长** | **短片优先**，如 30 秒–3 分钟；也可逐段制作更长内容。 | **长片优先**，尤其适合 **10 分钟及以上**的旁白视频，也能做短片和连续故事短剧。 |
-| **工具** | 用支持 Skill 的 AI 助手规划分镜，在你偏好的视频生成工具中生成片段（Google Flow、Runway、Luma、Kling 等），再用 CapCut 或 Premiere 完成剪辑。 | 在 **Codex、Claude Code** 等能读写文件、调用工具和执行命令的 AI 编程代理中运行，串起素材生成与本地合成。 |
-| **画面** | **逐段生成动画**：侧重角色动作、镜头调度与人物互动。 | **插画分镜＋局部动画**：表情、角色反应与道具动作配合旁白，辅以切镜、推拉和平移；仅有镜头移动或文字入场，不算画面微动画。 |
-| **产出** | 导演提案、分镜、逐段视频提示词与声音设计。 | **带配音、字幕与微动画的完整视频文件**。 |
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle"></th>
+<th align="center" valign="middle"><div align="center">A · Model Engine (模型引擎)</div></th>
+<th align="center" valign="middle"><div align="center">B · Code Engine (代码引擎)</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"><strong>原理</strong></td>
+<td align="left" valign="middle">把分镜提示词输入视频生成模型，直接生成连续动态画面。</td>
+<td align="left" valign="middle">AI 生成角色与场景分层底图，再用代码组装、运镜并本地渲染。</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>特点</strong></td>
+<td align="left" valign="middle">动作流畅自然、光影质感足，画面生动，富有影视动态张力。</td>
+<td align="left" valign="middle">角色形象稳定，素材可复用，时间线节奏、排版位置和局部微调更易把控。</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>适合</strong></td>
+<td align="left" valign="middle">拥有可用视频模型资源（如 Google Flow、优惠 API 或本地部署模型），主做高视觉表现力短视频的创作者。</td>
+<td align="left" valign="middle">已订阅 Codex / Claude Code 等编程会员（额度经常用不完），不想再额外掏钱买昂贵视频模型额度的用户。</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>使用</strong></td>
+<td align="left" valign="middle">确认脚本和画风后获取分镜与提示词，直接手动出片；也能让 AI 在内置浏览器操作生成片段，并完成剪辑、字幕和声音制作。</td>
+<td align="left" valign="middle">按所选画风确认视频脚本与 20s 样片后，由 AI 自动完成所有素材准备、代码编写、动画驱动、字幕与声音制作，再在本地渲染。</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>产出</strong></td>
+<td align="left" valign="middle">分镜脚本 + 逐段提示词 +（完整视频文件）</td>
+<td align="left" valign="middle">分层素材库（角色/场景/道具）+ 完整视频文件</td>
+</tr>
+<tr>
+<td align="center" valign="middle"><strong>成本</strong></td>
+<td align="left" valign="middle">消耗第三方视频模型额度/积分，长视频制作成本与抽卡风险较高。</td>
+<td align="left" valign="middle">本地代码渲染无需视频模型额度；仅使用现成 Agent 额度与基础生图/配音。</td>
+</tr>
+</tbody>
+</table>
 
-两种工作流都可以从一个初步话题、一个网页链接或一份完整脚本开始。画幅（9:16、16:9、1:1）、旁白语言与配音均可自由选择。上面的时长仅供参考，不是硬性限制。
+给一个想法、一篇文章、网页链接或完整脚本，即可开始制作。两种模式均支持短视频与长篇内容，可按发布平台选择 `16:9` 横屏或 `9:16` 竖屏，并按需求与画风标准配置字幕、旁白配音、背景音乐和音效。
 
-💡 **快速配置说明**：
-
-- **导演模式**可在普通对话式 AI 窗口中使用。
-- **全自动模式**运行在具备文件和终端访问能力的 AI 编程代理中（如 **Claude Code、OpenAI Codex 或 Cursor**），自动完成从渲染到文件交付的全流程。
+还没决定用哪种画风？下方分别提供不同画风的详细介绍和适用题材，以及更多样片供你参考。
 
 <!-- project-sponsor:start -->
 <a id="project-sponsor"></a>
@@ -143,75 +192,78 @@
 
 ## 🧭 开始使用
 
-**想尽可能接近展示案例，建议优先使用 Codex。** 本项目的自制案例均由我使用 Codex 制作与测试。
+<strong>想尽可能接近展示样片，建议优先使用 Codex、Claude Code 等编程能力较强的 AI 工具。</strong>
 
-也可安装到 Claude Code、Cursor、Antigravity 等具备文件和终端访问能力的 Agent；但模型能力、工具配置与执行方式不同，最终效果可能有所差异。
+也可安装到其他具备文件读写与终端执行能力的 Agent，但模型能力、工具配置与执行方式不同，最终效果可能有所差异。
 
-把以下内容发送给你的 AI 助手：
+### Step 1：安装 Skill
+
+首次使用会先检查所需配置，缺什么、怎么补都会逐步说明。把以下内容发送给你的 AI 助手：
 
 ```text
-帮我安装这个 Skill：
+帮我安装这个 Skill:
 https://github.com/kaomei/stickman-video-director
 
-安装成功后，立即读取已安装的 SKILL.md，
-用易懂的方式介绍两种模式的产出、所需工具和制作流程，
-给我可以照着说的示例；
-结合我的需求，告诉我还缺什么、下一步具体怎么做。
+安装成功后读取 SKILL.md，并告诉我你已就绪。
 ```
 
-安装超时？请看[安装排障](skills/directing-stickman-videos/references/installation-troubleshooting.md)（macOS/Linux 与 Windows）。
+如果你更习惯用终端，或者安装时遇到超时，可以参考[手动安装说明](skills/directing-stickman-videos/references/installation-troubleshooting.md)。
+
+### Step 2：选择画风和模式，一句话开始创作
+
+选好喜欢的「[A 模式](#a-styles)」或「[B 模式](#b-styles)」画风，再复制下方对应的提示词，换成自己的需求后发给 AI 助手：
 
 <a id="director-start"></a>
 
-### A · 导演模式：逐段生成分镜提示词
-
-安装后，把下面这段发给 AI 助手，换成自己的话题即可：
+### A · Model Engine
 
 ```text
-使用导演模式/A模式，把下面的话题、文案或需求，
-做成火柴人视频：
-[填写话题、粘贴文案，也可以直接描述需求]
+使用模型引擎（A 模式），把下面的话题/文案做成火柴人视频：
+[填写话题、粘贴文案，或直接描述你的想法]
 
-需求：横屏 16:9，采用 A3「史前洞穴风」，先做 30 秒。
-先给我导演提案，确认后再输出逐段视频提示词。
+要求：横屏 16:9，采用风格 A3「史前洞穴风」，先做 30 秒。
+
+先为我提供故事架构、声音方向与分镜方案；
+我确认通过后，再提供独立可用的逐段视频生成提示词。
 ```
 
-**流程：给出话题和需求 → 生成故事脚本 → 按需确认人物三视图 → 生成详细分镜提示词 → 手动生成片段并剪辑成片**
-
-提案包含故事结构、分段旁白、画面动作、镜头和声音设计。拿到提示词后，将它们逐条复制到 [Google Flow](https://flow.google.com/) 等视频生成工具，再用剪映等工具添加字幕、完成剪辑。
-
-制作第一个视频时，请参考 [X 上的可视化制作教程](https://x.com/CrazyKaomei/status/2102311241046008268)（含分步视频演示的串帖）。
+- **出片流程：** 分镜确认后，可自行手动生成，也可让 Agent 通过内置浏览器操作（先用低分辨率试片，满意后再连续制作并剪辑成片）。
+- **推荐平台：** 推荐使用 Google Flow，便于接近样片效果；首次制作可参考 [X 详细教程](https://x.com/CrazyKaomei/status/2102311241046008268)。
 
 <a id="autopilot-start"></a>
 
-### B · 全自动模式：一句话生成长片
-
-在 Codex、Claude Code 等具备文件与命令执行能力的环境中，安装后这样说：
+### B · Code Engine
 
 ```text
-使用全自动模式/B模式，把下面的话题、文章、帖子、新闻或具体需求，
-做成在 YouTube 上有吸引力的视频：
-[粘贴内容或链接，也可以直接描述宣传需求]
+使用代码引擎（B 模式），把下面的话题/文章做成一条有吸引力的火柴人视频：
+[粘贴长文、新闻、链接，或描述选题需求]
 
-需求：5～10 分钟，横屏 16:9，采用 B1「极简线稿风」，配上旁白、字幕和音效。
+要求：横屏 16:9，时长 8 分钟，采用风格 B1「极简线稿风」，配齐旁白、字幕和音效。
 
-先检查生图、配音和视频合成配置，再给我脚本与 20 秒有声样片；
-确认后，让画面跟随配音节奏自动完成整片，交付完整视频文件，不用我逐段拼装。
+先检查本地生图与合成环境，为我出具完整脚本与前 20 秒有声样片；
+确认通过后，自动完成全片素材准备、代码编写与本地渲染，直接交付完整视频。
 ```
 
-**流程：给出话题、内容或需求 → 确认视频脚本 → 确认 20 秒有声样片 → 自动制作整片 → 拿到完整视频**
+- **出片流程：** 确认脚本和 20 秒有声样片后，Agent 会按所选画风自动完成素材、动画、字幕与声音制作，在本地渲染整片并提供预览。
+- **局部微调：** 成片后若画面或声音不满意，可让 AI 只微调对应片段，保留已确认的部分。
 
-AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和音效，再按配音节奏合成为完整视频。你主要负责确认脚本和样片，不用逐段生成、手动拼装。
+### Step 3：一键生成封面与发布文案
 
-首次使用会先检查所需配置，缺什么、怎么补都会逐步说明。画面或声音不满意，可以只调整对应片段，保留已经确认的部分。
+确认成片满意后，可继续制作[封面与发布工具包](#thumbnail-publishing-kit)，把这句话发给 AI 即可：
 
-**两种模式都可选的收尾步骤：**确认成片满意后，可继续制作[封面与发布工具包](#thumbnail-publishing-kit)，获取匹配画风的封面和上传文案，也可以直接结束。无需切换模式或重新安装。
+```text
+为刚才的视频生成封面与发布文案，沿用已确认的画风。
+```
+
+AI 将为你一键生成匹配画风的封面图、视频标题、简介和置顶评论文案，无需切换模式或重新配置。
 
 <a id="style-gallery"></a>
 
 <a id="a-styles"></a>
 
-## 🎨 A · 导演模式画风一览
+## 🎨 A 模式画风一览
+
+当前 A 模式样片效果基于 [Google Flow](https://flow.google.com/) 制作，也可自行选择其他视频生成平台。<strong>交由 Agent 自动出片前，请确认账号已登录且有可用额度。</strong>
 
 按 A1、A2、A3…更新，每个画风下展示对应的动画样片。
 
@@ -256,9 +308,9 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 - **视觉亮点**：粗犷手绘、土色世界与鲜明表情；笑点藏在角色互动、反应镜头和恰到好处的停顿里。
 - **适合内容**：职场讽刺、人性观察、史前脑洞、黑色幽默、寓言与儿童英语故事。
 
-| 案例 1：人类的第一份工作是怎么来的？ | 案例 2：人类第一次发现火源 |
+| 样片 1：人类的第一份工作是怎么来的？ | 样片 2：人类第一次发现火源 |
 |:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-demo.gif" alt="人类的第一份工作是怎么来的？动态预览" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="人类第一次发现火源——粉丝作品" width="360"> |
+| <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@f1e7992ade7de1b31bf520cd264e375334009be9/assets/readme/previews/style-3-demo.gif" alt="人类的第一份工作是怎么来的？动态预览" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-3-community-fire.gif" alt="人类第一次发现火源——粉丝作品" width="360"> |
 | 史前故事 · 职场反转 | 火源主题 · 粉丝作品 |
 
 ---
@@ -272,7 +324,7 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 - **视觉亮点**：彩色日常场景、柔和光影与自然的小动作；镜头靠近时看见犹豫，拉远时留下一点释然。
 - **适合内容**：生活共鸣、人际关系、心理成长、习惯养成，以及温暖但不回避焦虑与疲惫的故事。
 
-| 案例 1：通勤路上的消息焦虑 | 案例 2：把时间留给自己 |
+| 样片 1：通勤路上的消息焦虑 | 样片 2：把时间留给自己 |
 |:---:|:---:|
 | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-station.gif" alt="治愈故事风：地铁站里的消息焦虑" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-4-cozy-cafe.gif" alt="治愈故事风：露天咖啡座的休息时刻" width="360"> |
 | 地铁站 · 行走跟拍 · 情绪近景 | 露天咖啡座 · 暖光树影 · 日常动作 |
@@ -289,7 +341,7 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 - **视觉亮点**：白色圆头、利落墨线与彩色时代场景；服饰、建筑和道具交代年代，人物反应与情节反差带出趣味。
 - **适合内容**：世界历史、文明趣事、古人日常、人物故事与轻幽默历史短片。
 
-| 案例 1：江户日本 · 武士的日常 | 案例 2：古埃及 · 猫与木乃伊 |
+| 样片 1：江户日本 · 武士的日常 | 样片 2：古埃及 · 猫与木乃伊 |
 |:---:|:---:|
 | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-japan.gif" alt="历史卡通风：江户武士与街巷日常" width="360"> | <img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@2697fac5e0466f44098148a52c9648697521b3d6/assets/readme/previews/style-5-egypt.gif" alt="历史卡通风：古埃及神庙、黑猫与木乃伊" width="360"> |
 | 江户街巷 · 武士服饰 · 日常反差 | 彩色神庙 · 黑猫角色 · 历史趣事 |
@@ -307,7 +359,7 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 - **视觉亮点**：琥珀高光、深色剪影与有纵深的城市场景；用角色行动和克制运镜制造悬念，而不是站着解释。
 - **适合内容**：“如果”脑洞、现代寓言、心理话题、意外发现与反转故事。
 
-| 示例 1：如果所有东西都便宜一万倍？ | 示例 2：物价大崩溃时代 |
+| 样片 1：如果所有东西都便宜一万倍？ | 样片 2：物价大崩溃时代 |
 |:---:|:---:|
 | <a href="assets/readme/style-6-amber-noir-mcp.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-mcp.gif" alt="暖金暗影风：物价一夜骤降的 20 秒故事" width="360"></a> | <a href="assets/readme/style-6-amber-noir-flow.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@828b865b37cbff61464b9c00e04bce79f79b3b5c/assets/readme/previews/style-6-amber-noir-flow.gif" alt="暖金暗影风：橙色连帽衫角色在商店外的 8 秒动画" width="360"></a> |
 | Renoise MCP 示例 · 20 秒 · Tim 旁白 | Google Flow 示例 · 8 秒 · 模型原生音频 |
@@ -316,16 +368,50 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 <a id="a7"></a>
 
-### A7：待更新…
+### A7：橡皮管动画风 · Rubber Hose Animation
 
-新的专用导演画风正在准备中。[为项目点个 Star](#road-to-10000-stars--creator-ecosystem)，关注后续更新。
+细线条火柴人走进精致的复古手绘场景，用弹性肢体、夸张表情和连贯的喜剧表演，让日常小事也有老动画的戏剧感。灰绿、象牙白与少量褪红保留柔和色彩，既有年代感，也让人物清晰突出。
+
+- **视觉亮点**：白色圆脸、两撮弯发与细线身体保持统一；钢笔轮廓、哑光笔触、道具互动和丰富切镜共同构成复古动画质感。
+- **适合内容**：荒诞喜剧、生活寓言、反转故事，以及配合音乐节奏展开的短片。
+
+| 样片 1：乌云追逐 | 样片 2：雨中街头 |
+|:---:|:---:|
+| <a href="assets/readme/style-7-rubber-hose.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose.gif" alt="A7 · 橡皮管动画风 · 样片 1：乌云追逐" width="360"></a> | <a href="assets/readme/style-7-rubber-hose-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@4e621f1f91abe012715df94fc44897d5a61777b0/assets/readme/previews/style-7-rubber-hose-2.gif" alt="A7 · 橡皮管动画风 · 样片 2：雨中街头" width="360"></a> |
+| 复古手绘街景 · 弹性肢体表演 | 雨景氛围 · 道具互动与表情切镜 |
+
+---
+
+<a id="a8"></a>
+
+### A8：吉卜力画风
+
+湛蓝的海天、高耸的积云和晒暖的石墙，勾勒出明亮的手绘世界。海风吹动晾衣和街边棚布，也从信使的挎包里卷走一封信。一场小冒险就从这样的日常细节开始。
+
+- **视觉亮点**：细腻的水粉背景、饱满的色块和鲜明的日照阴影，衬出赛璐璐动画般的平涂人物。火柴人保留简洁的圆脸、点眼和细线四肢。
+- **适合内容**：旅途见闻、日常小冒险、职业故事，以及带一点奇想的生活寓言。
+
+| 样片 1：山地工坊 | 样片 2：海边信使 |
+|:---:|:---:|
+| <a href="assets/readme/style-8-graphic-novel-2.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel-2.gif" alt="A8 · 吉卜力画风 · 样片 1：山地工坊" width="360"></a> | <a href="assets/readme/style-8-graphic-novel.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@1aadddbe9ed1c2f3230738dfcb5468f0a91c0687/assets/readme/previews/style-8-graphic-novel.gif" alt="A8 · 吉卜力画风 · 样片 2：海边信使" width="360"></a> |
+| 山地工坊远景 · 风势与拉绳动作 | 彩绘海岸街景 · 骑行与接信 |
+
+---
+
+<a id="a9"></a>
+
+### A9：待更新…
+
+新的模型引擎画风正在准备中。[为项目点个 Star](#road-to-10000-stars--creator-ecosystem)，关注后续更新。
 
 
 <a id="b-styles"></a>
 
-## 🤖 B · 全自动模式画风一览
+## 🤖 B 模式画风一览
 
-按 B1、B2、B3…更新，每个画风下展示对应的插画分镜＋微动画成片，与 A 系列分开维护。
+当前 B 模式展示的样片均由 Codex 制作：使用内置<strong><code>gpt-image-2</code></strong>模型生成画面素材，再由代码驱动分层动画，在本地渲染成片。交由其他 Agent 自动出片前，<strong>请确认其具备文件读写与终端执行能力，且所需工具已配置完成。</strong>
+
+按 B1、B2、B3…更新，每个画风下展示对应的完整视频样片。样片说明中的 Bodi、Fola、Brian、Claire、The Pharaoh 3 等，是这些样片所用的配音音色名称，你可以选择任何声音。
 
 <a id="b1"></a>
 
@@ -338,12 +424,12 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 <table width="100%">
   <tr>
-    <th width="50%" align="center">案例 1：不露脸做 YouTube</th>
-    <th width="50%" align="center">案例 2：每天发内容，为什么依旧没人看？</th>
+    <th width="50%" align="center">样片 1：不露脸做 YouTube</th>
+    <th width="50%" align="center">样片 2：每天发内容，为什么依旧没人看？</th>
   </tr>
   <tr>
-    <td width="50%" align="center"><a href="assets/readme/b1-minimal-handdrawn.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="B1 极简线稿风案例 1：点击查看或下载不露脸的 YouTube 视频创作有声样片" width="360"></a></td>
-    <td width="50%" align="center"><a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 极简线稿风案例 2：点击查看或下载 Bodi 有声样片，含字幕、手绘角色与微动画" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b1-minimal-handdrawn.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@fa0a68d1ccf9fd057230abab2af832f768debe86/assets/readme/previews/b1-minimal-handdrawn.gif" alt="B1 极简线稿风样片 1：点击查看或下载不露脸的 YouTube 视频创作有声样片" width="360"></a></td>
+    <td width="50%" align="center"><a href="skills/directing-stickman-videos/assets/b1/approved-2026-10-23.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@61e202ccecf9d9926cf76e13f3284181297729b8/assets/readme/previews/b1-minimal-handdrawn-2026-10-23.gif" alt="B1 极简线稿风样片 2：点击查看或下载 Bodi 有声样片，含字幕、手绘角色与微动画" width="360"></a></td>
   </tr>
   <tr>
     <td align="center">手绘角色 · 重点文字 · 微动画</td>
@@ -364,8 +450,8 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 <table width="100%">
   <tr>
-    <th width="50%" align="center">示例 1：为什么越想入睡，反而越清醒？</th>
-    <th width="50%" align="center">示例 2：手机解锁了，你却忘了要干什么</th>
+    <th width="50%" align="center">样片 1：为什么越想入睡，反而越清醒？</th>
+    <th width="50%" align="center">样片 2：手机解锁了，你却忘了要干什么</th>
   </tr>
   <tr>
     <td width="50%" align="center"><a href="assets/readme/b2-colorful-sleep.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b2-colorful-sleep.gif" alt="B2 彩色手绘风：安静的卧室、河上的纸船与放松的睡前时刻" width="360"></a></td>
@@ -391,8 +477,8 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 <table width="100%">
   <tr>
-    <th width="50%" align="center">示例 1：如果电视在凌晨三点自己打开？</th>
-    <th width="50%" align="center">示例 2：你的狗是在认错，还是在害怕？</th>
+    <th width="50%" align="center">样片 1：如果电视在凌晨三点自己打开？</th>
+    <th width="50%" align="center">样片 2：你的狗是在认错，还是在害怕？</th>
   </tr>
   <tr>
     <td width="50%" align="center"><a href="assets/readme/b3-tv-night-signal.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@eb24085d20aea0efe37c0862cfcd0516b57dadf7/assets/readme/previews/b3-tv-night-signal.gif" alt="复古电视风凌晨三点电视悬疑短片，圆润白色角色" width="360"></a></td>
@@ -442,7 +528,7 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 ### B5：角色解说风
 
-让你喜欢的头像成为频道的主讲人，其中使用知名角色需获得授权。角色在右下角开口讲述，火柴人在左侧把观点演成小剧场——被账单拖着跑、被压力压扁，抽象知识也能有笑点和记忆点。
+让你喜欢的头像成为频道的主讲人（使用知名角色需获得授权）。角色在右下角开口讲述，火柴人在左侧把观点演成小剧场——被账单拖着跑、被压力压扁，抽象知识也能有笑点和记忆点。
 
 - **视觉亮点**：暖纸背景、个性角色与黑红重点字；夸张受力、回弹和道具变形，把每句话变成看得懂的视觉比喻。
 - **声音氛围**：清晰旁白带动讲述，口型、表情与字幕跟随语音；音效卡住动作落点，轻量配乐不抢人声。
@@ -472,10 +558,10 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 ### B6：动感 Meme 风
 
-夸张的 Meme 表情、不规则手绘线条和柔和色彩，把离奇故事演成有笑点的短动画。宽大的场景让人物、道具和镜头都有活动空间。
+夸张的 Meme 表情、不规则手绘线条和柔和色彩，把离奇故事演成有笑点的短动画。画风灵感来自 YouTube [@RicksClips3000](https://www.youtube.com/@RicksClips3000)（**约 18 万订阅者**）。宽大的场景让人物、道具和镜头都有活动空间。
 
-- **画面质感**：轻重不一的墨线、哑光颜料和柔和光影，头部、身体与场景保持统一的手绘笔触，**竖屏效果更好**。
-- **动作运镜**：横向跟拍、前后景视差、道具交接和反应特写随剧情衔接，快慢之间留出看清动作与笑点的停顿。
+- **视觉亮点**：轻重不一的墨线、哑光颜料和柔和光影，头部、身体与场景保持统一的手绘笔触，**竖屏效果更好**。
+- **动态表现**：横向跟拍、前后景视差、道具交接和反应特写随剧情衔接，快慢之间留出看清动作与笑点的停顿。
 - **适合内容**：历史奇闻、骗局故事、荒诞喜剧，以及结尾有反转的短故事。
 
 <table width="100%">
@@ -497,11 +583,39 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 ---
 
+<!-- b7:section:start -->
 <a id="b7"></a>
 
-### B7：待更新…
+### B7：像素剧场风
 
-新的全自动画风与代码动画正在准备中。[为项目点个 Star](#road-to-10000-stars--creator-ecosystem)，关注后续更新。
+把人生选择，演成一场像素小游戏。白色火柴人在小小世界里犹豫、按下按钮、错过机会；一句“无所谓”，也可能让眼前的世界悄悄消失。
+
+- **视觉亮点**：清晰利落的像素颗粒、富有表情的白色角色与随场景变化的配色，不用模糊缩放或平滑矢量冒充像素画。
+- **动态表现**：角色、道具与场景联动，结尾以主题短句、像素打字声、轻柔闪字和配乐留下余韵。
+- **适合内容**：人生选择、荒诞寓言、黑色幽默，以及带游戏感的情绪与成长故事。
+
+<table width="100%">
+  <tr>
+    <th width="50%" align="center">样片 1：总说“无所谓”，世界会变成什么样？</th>
+    <th width="50%" align="center">样片 2：别快进你的人生</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="assets/readme/b7-pixel-theater-opening.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-pixel-theater.gif" alt="样片 1：总说“无所谓”，世界会变成什么样？" width="360"></a></td>
+    <td width="50%" align="center"><a href="assets/readme/b7-fast-forward-excerpt.mp4"><img src="https://cdn.jsdelivr.net/gh/kaomei/stickman-video-director@d3eab432397d65e7cb72c83f2f35f11216cd5af8/assets/readme/previews/b7-fast-forward-excerpt.gif" alt="样片 2：别快进你的人生" width="360"></a></td>
+  </tr>
+  <tr>
+    <td align="center">像素角色动画 · 游戏感配乐与音效</td>
+    <td align="center">Brian 配音 · 剧情音效 · 打字金句收尾</td>
+  </tr>
+</table>
+
+<!-- b7:section:end -->
+
+<a id="b8"></a>
+
+### B8：待更新…
+
+新的代码引擎画风与代码动画正在准备中。[为项目点个 Star](#road-to-10000-stars--creator-ecosystem)，关注后续更新。
 
 <!-- thumbnail-publishing-kit:start -->
 <a id="thumbnail-publishing-kit"></a>
@@ -510,7 +624,7 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 **视频做得再好，也要先让人愿意点开。** 动画完成后，在同一工作流中统筹与画风匹配的封面、高点击率标题和观众互动钩子。
 
-适用于**导演模式与全自动模式**的一体化收尾工具包：围绕视频已确认的角色与画风设计视觉钩子，并配齐可直接发布的 YouTube 元数据。
+适用于**模型引擎与代码引擎**的一体化收尾工具包：围绕视频已确认的角色与画风设计视觉钩子，并配齐可直接发布的 YouTube 元数据。
 
 <table width="100%">
   <tr>
@@ -573,21 +687,21 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 ### Q1. 这真的是 100% 免费的吗？有没有隐藏收费？
 
-是的。Stickman Video Director 采用 MIT 开源协议，100% 完全免费且开源，你可以自由用于个人创作或商业变现。不同于传统每月收取 $30–$60 昂贵月费的商业软件，本项目没有任何订阅费。你只需根据自己选择调用的第三方大模型服务（如 Google Gemini、Claude 或 ElevenLabs）按需支付官方 API 费用。
+是的，Skill 本身完全免费：采用 MIT 开源协议，可用于个人创作或商业变现，没有任何订阅费，不同于每月收取 $30–$60 的商业软件。没有隐藏收费，但你接入的服务会按各自标准收费：AI Agent 的订阅（如 Codex 或 Claude Code）、生图或配音等第三方服务需按需支付官方 API 费用（如 Google Gemini 或 ElevenLabs），以及 A 模式在 Google Flow 等平台生成视频所用的积分。
 
 <!-- readme:platforms -->
 
 ### Q2. 我该怎么保持角色的一致性？
 
-**B · 全自动模式**：采用代码驱动的制作流程，在制作视频前会先生成人物素材图，并在不同场景中复用，因此人物一致性相对稳定。
+**B · Code Engine（代码引擎）**：采用代码驱动的制作流程，在制作视频前会先生成人物素材图，并在不同场景中复用，因此人物一致性相对稳定。
 
-**A · 导演模式**：主要依赖文生视频。如果人物的发型、服饰等特征比较复杂，难以仅靠文字稳定复现，建议加一张火柴人角色参考图，并在后续片段中持续使用，让效果更稳定。
+**A · Model Engine（模型引擎）**：主要依赖文生视频。如果人物的发型、服饰等特征比较复杂，难以仅靠文字稳定复现，建议加一张火柴人角色参考图，并在后续片段中持续使用，让效果更稳定。
 
-### Q3. 我该使用什么工具？需要指定生图模型吗？
+### Q3. 推荐用什么工具？必须用指定的生图模型吗？
 
-**推荐使用 Codex，以尽可能接近案例效果。** 展示的 B 模式样片都由我在 Codex 中制作和测试，无需自己写代码。其他 Agent 也可安装 Skill，但模型、工具配置和执行方式不同，效果可能有差异。
+如果想尽量接近展示样片，**A 模式推荐用 Google Flow 生成视频片段，B 模式推荐用 Codex 制作成片。** B 模式的展示样片均由 Codex 制作，你可以用自然语言描述需求，由 Agent 编写代码并在本地渲染。
 
-我的案例使用 GPT 内置生图模型，没有额外配置生图 API。其他 Agent 可调用自己可用的生图工具；B5 真人或复杂角色须使用生成或已确认的素材图，不能用代码头像替代。旁白标注只是案例来源，不绑定服务商；需要时可让 Agent 配置所选服务，先做短样片再继续全片。画风预设不是限制；字体、文字动效或视频语言都可按需调整，让 Agent 按你的要求适配排版即可。
+**生图模型可以自行选择。** B 模式样片所需的图片素材使用 Codex 内置生图工具制作，无需另接生图 API。也可以用 Claude Code 等具备文件读写和终端执行能力的 Agent，搭配你已配置的生图和配音工具。建议先做一段有声样片，确认画风、字幕和声音后再制作全片。
 
 ### Q4. 如果我手里没有写好的现成剧本，能直接做视频吗？
 
@@ -599,35 +713,33 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 - **黄金 3 秒钩子**：将开篇第一句话重构为视觉反差或悬念冲突，瞬间抓住注意力防止观众划走；
 - **爆款视觉隐喻**：把枯燥抽象的概念转化为具象的搞笑视觉梗（例如把“精神内耗”具象化为一个疯狂自转的仓鼠轮，把“被掏空”具象化为头顶仅剩 1% 的低电量进度条）；
-- **卡点与节奏留白**：内置情绪铺垫、反转神表情与音效提示点（SFX），完美还原 Casually Explained 等顶流创作者的幽默节奏。
+- **卡点与节奏留白**：内置情绪铺垫、反转神表情与音效提示点（SFX），参考 Casually Explained 等创作者的幽默节奏。
 
 ### Q6. 生成的视频可以在 YouTube 和 TikTok 上开通收益变现吗？
 
-完全可以。无脸号创作者最担心被平台判定为“搬运重复内容（Reused Content）”或“低质 AI 垃圾”导致无法获利。由于本项目生成的是具有高度原创叙事节奏、独特视觉分镜和有针对性撰写的故事脚本，成片完全属于高价值原创内容，符合 YouTube 创作者收益计划（YPP）与 TikTok 创作者基金的变现标准。
+可以，视频由你发布，也可以用于变现。无脸号创作者最担心被判定为“搬运重复内容（Reused Content）”。本项目为每个视频单独撰写脚本、安排叙事节奏和视觉分镜，而不是重复使用素材，这正是平台判断原创性时看重的地方。不过，能否通过 YouTube 创作者收益计划（YPP）或 TikTok 创作者奖励计划，最终由平台根据整个频道来决定：建议加入你自己的观点和声音，持续更新，并遵守各平台关于 AI 生成内容的规定。
 
 ### Q7. 我需要懂编程或者拥有昂贵的高性能显卡吗？
 
-完全不需要。你不需要购买几万块的专业独立显卡，也不需要懂写代码。
-
-- **分镜导演模式（Director Mode）**：直接在任意支持 Skill 的 AI 助手对话框里用普通中文/英文交流即可使用；
-- **全自动模式（Autopilot Mode）**：运行在 Claude Code、Codex 或 Cursor 等现代智能体环境中，所有繁重的生成均交由云端 API 或轻量级渲染完成，不消耗本地硬件配置。
+不需要自己写代码，也不必专门购买高端显卡。A 模式可使用在线视频平台；B 模式由 Agent 编写代码并在本地渲染，制作速度会受电脑性能影响，但不是决定性因素。
 
 <!-- readme:contribute -->
 
 <a id="road-to-10000-stars--creator-ecosystem"></a>
 
-## ⭐ 迈向 20,000 Stars 与创作者生态
+## ⭐ 迈向 20,000 Stars
 
-**每一颗 Star，都为下一次更新添一把火！** 我们正在一起打造一个 100% 免费、开源的工作室，帮助独立创作者运营不露脸频道，无需每月支付 50 美元的 SaaS 订阅费。
+**每一颗 Star，都为下一次更新添一把火！** 我们正在一起打造一个免费、开源的工作室，帮助独立创作者运营不露脸频道，无需每月支付 50 美元的 SaaS 订阅费。[为项目点个 Star](https://github.com/kaomei/stickman-video-director)，一起解锁下一个里程碑。
 
-- [x] **1,000 Stars**：已推出导演模式 + 5 种核心画风
-- [x] **3,000 Stars**：已推出全自动模式，一键生成视频
+- [x] **1,000 Stars**：已推出模型引擎 + 5 种核心画风
+- [x] **3,000 Stars**：已推出代码引擎，从脚本到成片自动完成
 - [x] **6,000 Stars**：已上线 10+ 优质新画风
 - [ ] **🔥 10,000 Stars**：
   - 提供 A/B 模式通用的 1,000+ 条 YouTube 脚本提示词库
-  - [B 模式声音素材库](skills/directing-stickman-videos/references/b-audio-library.md)：774 款音效/声音转场 + 31 首背景乐 + 85 条短音乐句，按 B 画风和剧情动作推荐，可离线导出，附逐项许可和必要署名
+  - [B 模式声音素材库](skills/directing-stickman-videos/references/b-audio-library.md)：已上线，含 774 款音效/声音转场、31 首背景乐和 85 条短音乐句，附授权，可直接使用
 - [ ] **20,000 Stars**：
-  - 推出 Stickman AI 视频工作台——从创意到成片，全程自动化
+  - 频道自动驾驶——给出你的频道方向，一次生成一周可直接发布的视频，并配好封面和标题
+  - 推出 Stickman AI 视频工作台——开源桌面应用：粘贴脚本、选择画风，在可视化时间线上预览和调整每个镜头，然后渲染成片，无需使用终端
   - 更多惊喜，一起期待吧～
 
 <div align="center">
@@ -644,7 +756,7 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 
 ## 🔮 计划中的画风
 
-我们正在为最受欢迎的不露脸 YouTube 内容领域训练新的专用引擎：
+我们正在为最受欢迎的不露脸 YouTube 内容领域开发新画风：
 
 - **OverSimplified 式历史与传说** — 迷你历史人物、征服箭头与讽刺战役地图
 - **火柴人格斗与速度线** — Alan Becker 式动态打斗、武术与冲击帧
@@ -662,10 +774,12 @@ AI 助手会根据内容设计分镜，生成画面与旁白，配好字幕和�
 - **推荐画风**：发送视觉参考链接 + 你想做的内容领域。
 - **作品展示**：用这个工具制作了视频？发送作品链接，就有机会在本 README 和官方 YouTube 频道中展示！
 
-🔔 *在 X 上关注 **[@CrazyKaomei](https://x.com/CrazyKaomei)**，获取每日视频制作流程、自动化工具与频道增长 SOP。*
+🔔 **在 X 上关注 [@AveryRunsAI](https://x.com/AveryRunsAI)，获取最新教程、视频制作流程、自动化工具与频道增长技巧。**
 
 ## 📄 许可证
 
 本项目采用 [MIT License](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE) 开源，允许免费使用、修改、商用和分发。分发本项目或其重要部分时，请保留原有版权和许可声明。
+
+第三方音乐、音效等素材仍适用各自的许可证及署名要求，详见对应素材说明。
 
 项目按“现状”提供，不作任何担保；完整条款见 [LICENSE](https://github.com/kaomei/stickman-video-director/blob/main/LICENSE)。
