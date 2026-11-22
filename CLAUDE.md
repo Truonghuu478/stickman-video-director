@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A distributable agent Skill, `skills/directing-stickman-videos/`, plus the READMEs/assets that advertise it. A second, workflow-only skill, `skills/stickman-flow-pipeline/` (topic → Antigravity images → Google Flow clips → SFX pack), reuses the first skill's style rules and audio library and has no tests. It is mostly instruction documents (`SKILL.md` + `references/`) with a local Node/Python runtime for the Autopilot (B) styles. Video work done *with* the skill belongs outside this repo, not inside it.
+A distributable agent Skill, `skills/directing-stickman-videos/`, plus the READMEs/assets that advertise it. Workflow-only skills built on it (no tests): `skills/dao-dien-tap/` directs one silent A6 short end to end (three pitches and a user pick → `shots.tsv` with explicit Flow durations → start frames → Flow prompts → clip checks → `finish.py` with music bed, hook text and −14 LUFS); `skills/dang-bai-tiktok-reels/` writes POST.md; `skills/video-clip-qc/` writes clip review reports. `skills/stickman-flow-pipeline/` is superseded by `dao-dien-tap` and only forwards to it. It is mostly instruction documents (`SKILL.md` + `references/`) with a local Node/Python runtime for the Autopilot (B) styles. Video work done *with* the skill belongs outside this repo, not inside it.
 
 ## Commands
 
@@ -28,6 +28,14 @@ bash tests/verify-readmes.sh                   # runs the verify-*.py README/onb
 python3 tests/verify-localized-readmes.py README.ja.md   # one localized README
 python3 tests/verify-ab-preservation.py        # sha256 baseline of A1–A5 reference files
 bash scripts/optimize-readme-previews.sh       # regenerate README preview GIFs (needs ffmpeg)
+```
+
+dao-dien-tap scripts (from `skills/dao-dien-tap/`, Python 3 + FFmpeg; Pillow optional for text):
+
+```bash
+python3 scripts/check_plan.py <episode>/shots.tsv --markdown   # durations, turn on screen, pacing
+python3 scripts/check_plan.py <episode>/shots.tsv --clips      # after clips exist
+python3 scripts/finish.py <episode>/shots.tsv --out <episode>/final.mp4 --bed <music> --hook "..."
 ```
 
 There is no lint or build step.

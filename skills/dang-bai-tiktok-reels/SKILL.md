@@ -5,7 +5,7 @@ description: Write TikTok and Facebook Reels publishing copy for a dao-dien-tap 
 
 # TikTok and Facebook Reels publishing copy
 
-Input: an episode directory containing `FLOW.md` and, if available, `TRENDS.md`. If the user supplies only an episode description, use that. Output: **POST.md** in the episode directory, in English by default or the user-specified output language. Posting is the user's task; do not publish automatically.
+Input: an episode directory containing `FLOW.md` and, if available, `TRENDS.md`. If the user supplies only an episode description, use that. Output: **POST.md** in the episode directory, in Vietnamese by default (the audience is Vietnamese) or the user-specified output language. Posting is the user's task; do not publish automatically.
 
 ## Read before writing
 
@@ -19,6 +19,8 @@ From FLOW.md, identify the main interaction mechanism (share, comment, rewatch o
 4. **Hashtags:** at most three shared across both platforms. `#xuhuong` always comes first. Add one or two genuine trend tags from TRENDS.md. When there is no source trend, use `#xuhuong` and one specific topic tag. Do not pad with generic tags such as `#fyp`, `#viral` or `#foryou`.
 5. **Pinned comment:** invite viewers to share their version of the situation or notice a background detail.
 6. **Cover frame:** identify the shot code and source second with the clearest expression or pose before the ending.
+7. **Credits:** copy every `credits_required` line printed by `finish.py` (CC BY music or effects) into a `Credits` line ready to paste into the post description.
+8. **AI label:** remind the user to switch on the platform's AI-generated content label. If the film was finished with `--remove-veo-mark`, note that its on-screen "Video tạo bằng AI" label must stay in the posted version.
 
 ## Completion checks
 
@@ -26,3 +28,4 @@ From FLOW.md, identify the main interaction mechanism (share, comment, rewatch o
 - No section reveals the ending.
 - Each caption ends with exactly one invitation matching the interaction mechanism in FLOW.md.
 - Cover text has at most eight words.
+- Every CC BY credit from the finish report appears in POST.md.

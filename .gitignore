@@ -11,3 +11,10 @@ autopilot-work/
 !/.agents/skills/
 /.agents/skills/*
 !/.agents/skills/dao-dien-tap
+!/.claude/
+/.claude/*
+!/.claude/skills/
+/.claude/skills/*
+!/.claude/skills/dao-dien-tap
+!/.claude/skills/dang-bai-tiktok-reels
+!/.claude/skills/video-clip-qc

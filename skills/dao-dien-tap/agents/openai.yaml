@@ -1,4 +1,4 @@
 interface:
   display_name: "Direct one episode"
-  short_description: "Direct a 20–30 second film in A6 style with silent characters and Flow scene sound"
-  default_prompt: "Use $dao-dien-tap to choose an everyday story, create a start image for each shot, and deliver a Flow package with a short motion prompt, scene sound and a Remotion timeline."
+  short_description: "Pitch three silent stickman shorts, then plan, frame, check and finish the chosen one with music and hook text"
+  default_prompt: "Use $dao-dien-tap: pitch three stories in Vietnamese and wait for my pick. Then plan shots.tsv with explicit Flow durations, make start frames, give Flow prompts, check my clips and finish the film with finish.py."
