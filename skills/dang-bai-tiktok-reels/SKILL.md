@@ -1,32 +1,28 @@
 ---
 name: dang-bai-tiktok-reels
-description: Viết nội dung đăng TikTok và Facebook Reels cho một tập phim ngắn của dao-dien-tap, gồm chữ ảnh bìa, caption từng nền tảng, tối đa 3 hashtag có #xuhuong, bình luận ghim và khung hình làm bìa. Dùng khi cần soạn bài đăng cho một tập đã có hoặc đang làm.
+description: Write TikTok and Facebook Reels publishing copy for a dao-dien-tap short episode, including cover text, platform captions, up to three hashtags including #xuhuong, a pinned comment and a cover frame.
 ---
 
-# Nội dung đăng TikTok và Facebook Reels
+# TikTok and Facebook Reels publishing copy
 
-Đầu vào: thư mục tập có `FLOW.md` và `TRENDS.md` (nếu có). Người dùng chỉ đưa mô tả tập thì dùng mô tả đó. Đầu ra: file **POST.md** trong thư mục tập, bằng tiếng Việt. Đăng bài là việc của người dùng, không tự đăng.
+Input: an episode directory containing `FLOW.md` and, if available, `TRENDS.md`. If the user supplies only an episode description, use that. Output: **POST.md** in the episode directory, in English by default or the user-specified output language. Posting is the user's task; do not publish automatically.
 
-## Đọc trước khi viết
+## Read before writing
 
-Lấy từ FLOW.md: cơ chế tương tác chính (share, comment, rewatch hoặc save), dòng **Trend gốc**, cú kết và frame đẹp nhất trước cú kết. Lấy từ TRENDS.md: tên trend và hashtag người ta đang dùng cho trend đó.
+From FLOW.md, identify the main interaction mechanism (share, comment, rewatch or save), the **Source trend** or legacy **Trend gốc** line, ending and best frame before the ending. From TRENDS.md, identify the trend name and hashtags actually used for it.
 
-## Các phần của POST.md
+## POST.md contents
 
-1. **Chữ trên ảnh bìa**: tối đa 8 từ, gọi tên tình huống người xem nhận ra, không lộ cú kết. Ví dụ: "Khi mèo nhà bạn biết bạn đang cần ghế".
-2. **Caption TikTok**: một dòng đọc hết không cần bấm xem thêm. Từ đầu tiên đã gọi đúng tình huống. Giọng bạn bè, tiếng lóng chỉ khi tự nhiên. Kết bằng lời mời hợp cơ chế đã chọn: với comment, một câu chọn phe có hai đáp án rõ; với share, gọi đúng kiểu người cần tag như "tag đứa bạn cùng phòng"; với save, nói điều khiến họ muốn giữ lại.
-3. **Caption Facebook Reels**: cùng ý, viết lại cho người không quen TikTok. Câu mở đủ ngữ cảnh, được dài hơn một nhịp, lời mời gửi cho người thân hoặc bạn bè. Không dùng từ lóng riêng của TikTok.
-4. **Hashtag, tối đa 3, dùng chung cho cả hai nền tảng**:
-   - `#xuhuong` luôn đứng đầu.
-   - Một hoặc hai tag là tag trend thật lấy từ TRENDS.md.
-   - Tập không có trend gốc: `#xuhuong` cộng một tag chủ đề cụ thể, ví dụ `#mèocon`.
-   - Tag chung chung nhồi vào như `#fyp`, `#viral`, `#foryou` không đưa vào.
-5. **Bình luận ghim**: mời người xem kể phiên bản của họ về tình huống, hoặc gợi tìm chi tiết nền của tập.
-6. **Khung hình làm bìa**: ghi mã shot và giây của frame có biểu cảm hoặc tư thế rõ nhất trước cú kết.
+1. **Cover text:** at most eight words, naming a recognizable situation without revealing the ending.
+2. **TikTok caption:** one line that can be read without expanding it. Open with the situation, use a conversational tone and slang only when natural. End with one invitation matching the chosen mechanism: for comments, a clear two-sided choice; for sharing, identify the kind of person to tag; for saving, say why the viewer might keep it.
+3. **Facebook Reels caption:** the same idea rewritten for viewers unfamiliar with TikTok. Open with enough context, allow a slightly longer sentence, and invite sharing with friends or family. Avoid TikTok-specific slang.
+4. **Hashtags:** at most three shared across both platforms. `#xuhuong` always comes first. Add one or two genuine trend tags from TRENDS.md. When there is no source trend, use `#xuhuong` and one specific topic tag. Do not pad with generic tags such as `#fyp`, `#viral` or `#foryou`.
+5. **Pinned comment:** invite viewers to share their version of the situation or notice a background detail.
+6. **Cover frame:** identify the shot code and source second with the clearest expression or pose before the ending.
 
-## Hoàn thành khi
+## Completion checks
 
-- Đếm hashtag được đúng 1 đến 3 và có `#xuhuong`.
-- Không phần nào nhắc cú kết.
-- Mỗi caption kết bằng đúng một lời mời, khớp cơ chế tương tác trong FLOW.md.
-- Chữ bìa không quá 8 từ.
+- Use one to three hashtags, including `#xuhuong`.
+- No section reveals the ending.
+- Each caption ends with exactly one invitation matching the interaction mechanism in FLOW.md.
+- Cover text has at most eight words.

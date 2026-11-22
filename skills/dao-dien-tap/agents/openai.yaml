@@ -1,4 +1,4 @@
 interface:
-  display_name: "Đạo diễn một tập"
-  short_description: "Phim 20–30 giây có tiếng hiện trường, shot Flow và Remotion"
-  default_prompt: "Dùng $dao-dien-tap để tự chọn một chuyện đời thường, tạo ảnh từng shot và giao gói Flow có motion từng nhịp, tiếng hiện trường và timeline Remotion cho phim 20–30 giây."
+  display_name: "Direct one episode"
+  short_description: "Direct a 20–30 second film in A6 style with silent characters and Flow scene sound"
+  default_prompt: "Use $dao-dien-tap to choose an everyday story, create a start image for each shot, and deliver a Flow package with a short motion prompt, scene sound and a Remotion timeline."
